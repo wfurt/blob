@@ -1,456 +1,2296 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0/freebsd.11-x64",
-    "signature": "5c1b6ba35db155c562fdcb64e138749abdb9f09e"
+    "signature": "0c02f9c6e2cbb57229410762a8dc3c5dae36ce4e"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.0": {},
-    ".NETCoreApp,Version=v2.0/linux-x64": {
-      "Microsoft.NETCore.App/2.0.1": {
-        "dependencies": {
-          "Microsoft.NETCore.DotNetHostPolicy": "2.0.1",
-          "Microsoft.NETCore.Platforms": "2.0.0",
-          "NETStandard.Library": "2.0.0",
-          "runtime.linux-x64.Microsoft.NETCore.App": "2.0.1"
-        }
-      },
-      "Microsoft.NETCore.DotNetHostPolicy/2.0.1": {
-        "dependencies": {
-          "runtime.linux-x64.Microsoft.NETCore.DotNetHostPolicy": "2.0.1"
-        }
-      },
-      "Microsoft.NETCore.Platforms/2.0.0": {},
-      "NETStandard.Library/2.0.0": {
-        "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.0.0"
-        }
-      },
-      "runtime.linux-x64.Microsoft.NETCore.App/2.0.1": {
-        "runtime": {
-          "runtimes/linux-x64/lib/netcoreapp2.0/Microsoft.CSharp.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/Microsoft.VisualBasic.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/Microsoft.Win32.Primitives.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/Microsoft.Win32.Registry.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/SOS.NETCore.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.AppContext.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Buffers.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Collections.Concurrent.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Collections.Immutable.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Collections.NonGeneric.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Collections.Specialized.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Collections.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.ComponentModel.Annotations.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.ComponentModel.Composition.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.ComponentModel.DataAnnotations.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.ComponentModel.EventBasedAsync.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.ComponentModel.Primitives.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.ComponentModel.TypeConverter.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.ComponentModel.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Configuration.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Console.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Core.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Data.Common.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Data.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Diagnostics.Contracts.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Diagnostics.Debug.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Diagnostics.DiagnosticSource.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Diagnostics.FileVersionInfo.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Diagnostics.Process.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Diagnostics.StackTrace.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Diagnostics.TextWriterTraceListener.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Diagnostics.Tools.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Diagnostics.TraceSource.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Diagnostics.Tracing.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Drawing.Primitives.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Drawing.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Dynamic.Runtime.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Globalization.Calendars.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Globalization.Extensions.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Globalization.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.IO.Compression.FileSystem.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.IO.Compression.ZipFile.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.IO.Compression.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.IO.FileSystem.AccessControl.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.IO.FileSystem.DriveInfo.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.IO.FileSystem.Primitives.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.IO.FileSystem.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.IO.IsolatedStorage.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.IO.MemoryMappedFiles.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.IO.Pipes.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.IO.UnmanagedMemoryStream.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.IO.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Linq.Expressions.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Linq.Parallel.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Linq.Queryable.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Linq.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Net.Http.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Net.HttpListener.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Net.Mail.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Net.NameResolution.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Net.Ping.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Net.Primitives.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Net.Requests.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Net.Security.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Net.ServicePoint.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Net.Sockets.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Net.WebClient.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Net.WebHeaderCollection.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Net.WebProxy.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Net.WebSockets.Client.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Net.WebSockets.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Net.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Numerics.Vectors.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Numerics.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.ObjectModel.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Private.DataContractSerialization.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Private.Uri.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Private.Xml.Linq.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Private.Xml.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Reflection.DispatchProxy.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Reflection.Emit.ILGeneration.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Reflection.Emit.Lightweight.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Reflection.Emit.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Reflection.Extensions.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Reflection.Metadata.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Reflection.Primitives.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Reflection.TypeExtensions.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Reflection.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Resources.Reader.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Resources.ResourceManager.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Resources.Writer.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Runtime.CompilerServices.VisualC.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Runtime.Extensions.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Runtime.Handles.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Runtime.InteropServices.RuntimeInformation.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Runtime.InteropServices.WindowsRuntime.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Runtime.InteropServices.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Runtime.Loader.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Runtime.Numerics.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Runtime.Serialization.Formatters.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Runtime.Serialization.Json.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Runtime.Serialization.Primitives.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Runtime.Serialization.Xml.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Runtime.Serialization.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Runtime.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Security.AccessControl.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Security.Claims.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Security.Cryptography.Algorithms.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Security.Cryptography.Cng.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Security.Cryptography.Csp.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Security.Cryptography.Encoding.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Security.Cryptography.OpenSsl.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Security.Cryptography.Primitives.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Security.Cryptography.X509Certificates.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Security.Principal.Windows.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Security.Principal.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Security.SecureString.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Security.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.ServiceModel.Web.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.ServiceProcess.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Text.Encoding.Extensions.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Text.Encoding.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Text.RegularExpressions.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Threading.Overlapped.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Threading.Tasks.Dataflow.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Threading.Tasks.Extensions.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Threading.Tasks.Parallel.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Threading.Tasks.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Threading.Thread.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Threading.ThreadPool.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Threading.Timer.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Threading.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Transactions.Local.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Transactions.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.ValueTuple.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Web.HttpUtility.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Web.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Windows.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Xml.Linq.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Xml.ReaderWriter.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Xml.Serialization.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Xml.XDocument.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Xml.XPath.XDocument.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Xml.XPath.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Xml.XmlDocument.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Xml.XmlSerializer.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Xml.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/WindowsBase.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/mscorlib.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/netstandard.dll": {}
-        },
-        "native": {
-          "runtimes/linux-x64/native/System.Globalization.Native.so": {},
-          "runtimes/linux-x64/native/System.IO.Compression.Native.so": {},
-          "runtimes/linux-x64/native/System.Native.a": {},
-          "runtimes/linux-x64/native/System.Native.so": {},
-          "runtimes/linux-x64/native/System.Net.Http.Native.so": {},
-          "runtimes/linux-x64/native/System.Net.Security.Native.so": {},
-          "runtimes/linux-x64/native/System.Private.CoreLib.dll": {},
-          "runtimes/linux-x64/native/System.Security.Cryptography.Native.OpenSsl.so": {},
-          "runtimes/linux-x64/native/createdump": {},
-          "runtimes/linux-x64/native/libclrjit.so": {},
-          "runtimes/linux-x64/native/libcoreclr.so": {},
-          "runtimes/linux-x64/native/libcoreclrtraceptprovider.so": {},
-          "runtimes/linux-x64/native/libdbgshim.so": {},
-          "runtimes/linux-x64/native/libmscordaccore.so": {},
-          "runtimes/linux-x64/native/libmscordbi.so": {},
-          "runtimes/linux-x64/native/libsos.so": {},
-          "runtimes/linux-x64/native/libsosplugin.so": {},
-          "runtimes/linux-x64/native/sosdocsunix.txt": {}
-        }
-      },
-      "runtime.linux-x64.Microsoft.NETCore.DotNetHostPolicy/2.0.1": {
-        "native": {
-          "runtimes/linux-x64/native/libhostpolicy.so": {}
-        }
-      }
-    },
     ".NETCoreApp,Version=v2.0/freebsd.11-x64": {
-      "Microsoft.NETCore.App/2.0.1": {
+      "microsoft.netcore.app/2.0.0-preview1-002111-00": {
         "dependencies": {
-          "Microsoft.NETCore.DotNetHostPolicy": "2.0.1",
-          "Microsoft.NETCore.Platforms": "2.0.0",
-          "NETStandard.Library": "2.0.0",
-          "runtime.linux-x64.Microsoft.NETCore.App": "2.0.1"
+          "Microsoft.NETCore.DotNetHostPolicy": "2.0.0-preview1-002111-00",
+          "Microsoft.NETCore.Platforms": "2.0.0-preview1-25305-02",
+          "NETStandard.Library": "2.0.0-preview1-25301-01",
+          "runtime.freebsd.11-x64.Microsoft.NETCore.App": "2.0.0-preview1-002111-00"
         }
       },
-      "Microsoft.NETCore.DotNetHostPolicy/2.0.1": {
-        "dependencies": {
-          "runtime.linux-x64.Microsoft.NETCore.DotNetHostPolicy": "2.0.1"
-        }
-      },
-      "Microsoft.NETCore.Platforms/2.0.0": {},
-      "NETStandard.Library/2.0.0": {
-        "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.0.0"
-        }
-      },
-      "runtime.linux-x64.Microsoft.NETCore.App/2.0.1": {
+      "runtime.freebsd.11-x64.microsoft.netcore.app/2.0.0-preview1-002111-00": {
         "runtime": {
-          "runtimes/linux-x64/lib/netcoreapp2.0/Microsoft.CSharp.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/Microsoft.VisualBasic.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/Microsoft.Win32.Primitives.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/Microsoft.Win32.Registry.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/SOS.NETCore.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.AppContext.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Buffers.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Collections.Concurrent.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Collections.Immutable.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Collections.NonGeneric.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Collections.Specialized.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Collections.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.ComponentModel.Annotations.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.ComponentModel.Composition.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.ComponentModel.DataAnnotations.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.ComponentModel.EventBasedAsync.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.ComponentModel.Primitives.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.ComponentModel.TypeConverter.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.ComponentModel.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Configuration.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Console.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Core.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Data.Common.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Data.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Diagnostics.Contracts.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Diagnostics.Debug.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Diagnostics.DiagnosticSource.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Diagnostics.FileVersionInfo.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Diagnostics.Process.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Diagnostics.StackTrace.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Diagnostics.TextWriterTraceListener.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Diagnostics.Tools.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Diagnostics.TraceSource.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Diagnostics.Tracing.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Drawing.Primitives.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Drawing.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Dynamic.Runtime.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Globalization.Calendars.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Globalization.Extensions.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Globalization.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.IO.Compression.FileSystem.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.IO.Compression.ZipFile.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.IO.Compression.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.IO.FileSystem.AccessControl.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.IO.FileSystem.DriveInfo.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.IO.FileSystem.Primitives.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.IO.FileSystem.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.IO.IsolatedStorage.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.IO.MemoryMappedFiles.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.IO.Pipes.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.IO.UnmanagedMemoryStream.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.IO.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Linq.Expressions.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Linq.Parallel.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Linq.Queryable.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Linq.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Net.Http.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Net.HttpListener.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Net.Mail.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Net.NameResolution.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Net.Ping.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Net.Primitives.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Net.Requests.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Net.Security.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Net.ServicePoint.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Net.Sockets.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Net.WebClient.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Net.WebHeaderCollection.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Net.WebProxy.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Net.WebSockets.Client.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Net.WebSockets.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Net.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Numerics.Vectors.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Numerics.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.ObjectModel.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Private.DataContractSerialization.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Private.Uri.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Private.Xml.Linq.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Private.Xml.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Reflection.DispatchProxy.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Reflection.Emit.ILGeneration.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Reflection.Emit.Lightweight.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Reflection.Emit.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Reflection.Extensions.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Reflection.Metadata.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Reflection.Primitives.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Reflection.TypeExtensions.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Reflection.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Resources.Reader.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Resources.ResourceManager.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Resources.Writer.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Runtime.CompilerServices.VisualC.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Runtime.Extensions.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Runtime.Handles.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Runtime.InteropServices.RuntimeInformation.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Runtime.InteropServices.WindowsRuntime.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Runtime.InteropServices.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Runtime.Loader.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Runtime.Numerics.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Runtime.Serialization.Formatters.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Runtime.Serialization.Json.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Runtime.Serialization.Primitives.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Runtime.Serialization.Xml.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Runtime.Serialization.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Runtime.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Security.AccessControl.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Security.Claims.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Security.Cryptography.Algorithms.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Security.Cryptography.Cng.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Security.Cryptography.Csp.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Security.Cryptography.Encoding.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Security.Cryptography.OpenSsl.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Security.Cryptography.Primitives.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Security.Cryptography.X509Certificates.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Security.Principal.Windows.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Security.Principal.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Security.SecureString.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Security.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.ServiceModel.Web.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.ServiceProcess.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Text.Encoding.Extensions.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Text.Encoding.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Text.RegularExpressions.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Threading.Overlapped.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Threading.Tasks.Dataflow.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Threading.Tasks.Extensions.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Threading.Tasks.Parallel.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Threading.Tasks.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Threading.Thread.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Threading.ThreadPool.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Threading.Timer.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Threading.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Transactions.Local.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Transactions.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.ValueTuple.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Web.HttpUtility.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Web.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Windows.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Xml.Linq.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Xml.ReaderWriter.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Xml.Serialization.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Xml.XDocument.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Xml.XPath.XDocument.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Xml.XPath.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Xml.XmlDocument.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Xml.XmlSerializer.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.Xml.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/System.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/WindowsBase.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/mscorlib.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/xunit.runner.utility.dotnet.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/xunit.abstractions.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/xunit.execution.dotnet.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/xunit.core.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/xunit.assert.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/Xunit.NetCore.Extensions.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/CoreFx.Private.TestUtilities.dll": {},
-          "runtimes/linux-x64/lib/netcoreapp2.0/netstandard.dll": {}
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/Microsoft.CSharp.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/Microsoft.VisualBasic.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/Microsoft.Win32.Primitives.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/Microsoft.Win32.Registry.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/SOS.NETCore.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.AppContext.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Buffers.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Collections.Concurrent.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Collections.Immutable.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Collections.NonGeneric.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Collections.Specialized.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Collections.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.ComponentModel.Annotations.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.ComponentModel.Composition.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.ComponentModel.DataAnnotations.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.ComponentModel.EventBasedAsync.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.ComponentModel.Primitives.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.ComponentModel.TypeConverter.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.ComponentModel.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Console.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Core.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Data.Common.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Data.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Diagnostics.Contracts.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Diagnostics.Debug.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Diagnostics.DiagnosticSource.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Diagnostics.FileVersionInfo.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Diagnostics.Process.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Diagnostics.StackTrace.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Diagnostics.TextWriterTraceListener.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Diagnostics.Tools.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Diagnostics.TraceSource.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Diagnostics.Tracing.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Drawing.Primitives.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Drawing.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Dynamic.Runtime.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Globalization.Calendars.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Globalization.Extensions.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Globalization.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.IO.Compression.FileSystem.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.IO.Compression.ZipFile.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.IO.Compression.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.IO.FileSystem.AccessControl.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.IO.FileSystem.DriveInfo.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.IO.FileSystem.Primitives.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.IO.FileSystem.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.IO.IsolatedStorage.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.IO.MemoryMappedFiles.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.IO.Pipes.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.IO.UnmanagedMemoryStream.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.IO.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Linq.Expressions.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Linq.Parallel.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Linq.Queryable.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Linq.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Net.Http.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Net.HttpListener.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Net.Mail.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Net.NameResolution.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Net.Ping.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Net.Primitives.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Net.Requests.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Net.Security.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Net.ServicePoint.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Net.Sockets.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Net.WebClient.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Net.WebHeaderCollection.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Net.WebProxy.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Net.WebSockets.Client.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Net.WebSockets.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Net.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Numerics.Vectors.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Numerics.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.ObjectModel.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Private.CoreLib.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Private.DataContractSerialization.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Private.Uri.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Private.Xml.Linq.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Private.Xml.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Reflection.DispatchProxy.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Reflection.Emit.ILGeneration.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Reflection.Emit.Lightweight.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Reflection.Emit.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Reflection.Extensions.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Reflection.Metadata.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Reflection.Primitives.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Reflection.TypeExtensions.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Reflection.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Resources.Reader.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Resources.ResourceManager.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Resources.Writer.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Runtime.CompilerServices.VisualC.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Runtime.Extensions.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Runtime.Handles.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Runtime.InteropServices.RuntimeInformation.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Runtime.InteropServices.WindowsRuntime.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Runtime.InteropServices.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Runtime.Loader.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Runtime.Numerics.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Runtime.Serialization.Formatters.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Runtime.Serialization.Json.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Runtime.Serialization.Primitives.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Runtime.Serialization.Xml.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Runtime.Serialization.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Runtime.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Security.AccessControl.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Security.Claims.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Security.Cryptography.Algorithms.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Security.Cryptography.Cng.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Security.Cryptography.Csp.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Security.Cryptography.Encoding.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Security.Cryptography.OpenSsl.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Security.Cryptography.Primitives.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Security.Cryptography.X509Certificates.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Security.Principal.Windows.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Security.Principal.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Security.SecureString.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.ServiceModel.Web.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Text.Encoding.Extensions.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Text.Encoding.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Text.RegularExpressions.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Threading.Overlapped.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Threading.Tasks.Dataflow.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Threading.Tasks.Extensions.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Threading.Tasks.Parallel.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Threading.Tasks.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Threading.Thread.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Threading.ThreadPool.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Threading.Timer.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Threading.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Transactions.Local.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Transactions.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.ValueTuple.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Web.HttpUtility.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Web.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Windows.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Xml.Linq.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Xml.ReaderWriter.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Xml.Serialization.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Xml.XDocument.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Xml.XPath.XDocument.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Xml.XPath.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Xml.XmlDocument.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Xml.XmlSerializer.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.Xml.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/System.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/mscorlib.dll": {},
+          "runtimes/freebsd.11-x64/lib/netcoreapp2.0/netstandard.dll": {}
         },
         "native": {
-          "runtimes/linux-x64/native/System.Globalization.Native.so": {},
-          "runtimes/linux-x64/native/System.IO.Compression.Native.so": {},
-          "runtimes/linux-x64/native/System.Native.a": {},
-          "runtimes/linux-x64/native/System.Native.so": {},
-          "runtimes/linux-x64/native/System.Net.Http.Native.so": {},
-          "runtimes/linux-x64/native/System.Net.Security.Native.so": {},
-          "runtimes/linux-x64/native/System.Private.CoreLib.dll": {},
-          "runtimes/linux-x64/native/System.Security.Cryptography.Native.OpenSsl.so": {},
-          "runtimes/linux-x64/native/createdump": {},
-          "runtimes/linux-x64/native/libclrjit.so": {},
-          "runtimes/linux-x64/native/libcoreclr.so": {},
-          "runtimes/linux-x64/native/libcoreclrtraceptprovider.so": {},
-          "runtimes/linux-x64/native/libdbgshim.so": {},
-          "runtimes/linux-x64/native/libmscordaccore.so": {},
-          "runtimes/linux-x64/native/libmscordbi.so": {},
-          "runtimes/linux-x64/native/libsos.so": {},
-          "runtimes/linux-x64/native/libsosplugin.so": {},
-          "runtimes/linux-x64/native/sosdocsunix.txt": {}
+          "runtimes/freebsd.11-x64/native/System.Globalization.Native.so": {},
+          "runtimes/freebsd.11-x64/native/System.IO.Compression.Native.so": {},
+          "runtimes/freebsd.11-x64/native/System.Native.a": {},
+          "runtimes/freebsd.11-x64/native/System.Native.so": {},
+          "runtimes/freebsd.11-x64/native/System.Net.Http.Native.so": {},
+          "runtimes/freebsd.11-x64/native/System.Net.Security.Native.so": {},
+          "runtimes/freebsd.11-x64/native/System.Security.Cryptography.Native.OpenSsl.so": {},
+          "runtimes/freebsd.11-x64/native/libclrjit.so": {},
+          "runtimes/freebsd.11-x64/native/libcoreclr.so": {},
+          "runtimes/freebsd.11-x64/native/libdbgshim.so": {},
+          "runtimes/freebsd.11-x64/native/libmscordaccore.so": {},
+          "runtimes/freebsd.11-x64/native/libmscordbi.so": {},
+          "runtimes/freebsd.11-x64/native/libsos.so": {},
+          "runtimes/freebsd.11-x64/native/sosdocsunix.txt": {}
         }
       },
-      "runtime.linux-x64.Microsoft.NETCore.DotNetHostPolicy/2.0.1": {
-        "native": {
-          "runtimes/linux-x64/native/libhostpolicy.so": {}
+      "CommandLine/2.0.275": {
+        "runtime": {
+          "CommandLine.dll": {}
+        }
+      },
+      "CoreFx.Private.TestUtilities/1.0.0": {
+        "runtime": {
+          "CoreFx.Private.TestUtilities.dll": {}
+        }
+      },
+      "dotnet-Microsoft.XmlSerializer.Generator/1.0.0": {
+        "runtime": {
+          "dotnet-Microsoft.XmlSerializer.Generator.dll": {}
+        }
+      },
+      "Microsoft.3rdpartytools.MarkdownLog/1.0.0": {
+        "runtime": {
+          "Microsoft.3rdpartytools.MarkdownLog.dll": {}
+        }
+      },
+      "Microsoft.CSharp/4.0.4": {
+        "runtime": {
+          "Microsoft.CSharp.dll": {}
+        }
+      },
+      "Microsoft.Diagnostics.Tracing.TraceEvent/1.0.0": {
+        "runtime": {
+          "Microsoft.Diagnostics.Tracing.TraceEvent.dll": {}
+        }
+      },
+      "Microsoft.VisualBasic/10.0.4": {
+        "runtime": {
+          "Microsoft.VisualBasic.dll": {}
+        }
+      },
+      "Microsoft.Win32.Primitives/4.1.1": {
+        "runtime": {
+          "Microsoft.Win32.Primitives.dll": {}
+        }
+      },
+      "Microsoft.Win32.Registry.AccessControl/4.0.3": {
+        "runtime": {
+          "Microsoft.Win32.Registry.AccessControl.dll": {}
+        }
+      },
+      "Microsoft.Win32.Registry/4.1.1": {
+        "runtime": {
+          "Microsoft.Win32.Registry.dll": {}
+        }
+      },
+      "netstandard/2.0.0": {
+        "runtime": {
+          "netstandard.dll": {}
+        }
+      },
+      "Newtonsoft.Json/9.0.0": {
+        "runtime": {
+          "Newtonsoft.Json.dll": {}
+        }
+      },
+      "SOS.NETCore/1.0.0": {
+        "runtime": {
+          "SOS.NETCore.dll": {}
+        }
+      },
+      "System.AppContext/4.2.1": {
+        "runtime": {
+          "System.AppContext.dll": {}
+        }
+      },
+      "System.Buffers/4.0.3": {
+        "runtime": {
+          "System.Buffers.dll": {}
+        }
+      },
+      "System.CodeDom/4.0.1": {
+        "runtime": {
+          "System.CodeDom.dll": {}
+        }
+      },
+      "System.Collections.Concurrent/4.0.14": {
+        "runtime": {
+          "System.Collections.Concurrent.dll": {}
+        }
+      },
+      "System.Collections/4.1.1": {
+        "runtime": {
+          "System.Collections.dll": {}
+        }
+      },
+      "System.Collections.Immutable/1.2.3": {
+        "runtime": {
+          "System.Collections.Immutable.dll": {}
+        }
+      },
+      "System.Collections.NonGeneric/4.1.1": {
+        "runtime": {
+          "System.Collections.NonGeneric.dll": {}
+        }
+      },
+      "System.Collections.Specialized/4.1.1": {
+        "runtime": {
+          "System.Collections.Specialized.dll": {}
+        }
+      },
+      "System.ComponentModel.Annotations/4.2.1": {
+        "runtime": {
+          "System.ComponentModel.Annotations.dll": {}
+        }
+      },
+      "System.ComponentModel.Composition/4.0.0": {
+        "runtime": {
+          "System.ComponentModel.Composition.dll": {}
+        }
+      },
+      "System.ComponentModel.DataAnnotations/4.0.0": {
+        "runtime": {
+          "System.ComponentModel.DataAnnotations.dll": {}
+        }
+      },
+      "System.ComponentModel/4.0.3": {
+        "runtime": {
+          "System.ComponentModel.dll": {}
+        }
+      },
+      "System.ComponentModel.EventBasedAsync/4.1.1": {
+        "runtime": {
+          "System.ComponentModel.EventBasedAsync.dll": {}
+        }
+      },
+      "System.ComponentModel.Primitives/4.2.1": {
+        "runtime": {
+          "System.ComponentModel.Primitives.dll": {}
+        }
+      },
+      "System.ComponentModel.TypeConverter/4.2.1": {
+        "runtime": {
+          "System.ComponentModel.TypeConverter.dll": {}
+        }
+      },
+      "System.Composition.AttributedModel/1.0.33": {
+        "runtime": {
+          "System.Composition.AttributedModel.dll": {}
+        }
+      },
+      "System.Composition.Convention/1.0.33": {
+        "runtime": {
+          "System.Composition.Convention.dll": {}
+        }
+      },
+      "System.Composition.Hosting/1.0.33": {
+        "runtime": {
+          "System.Composition.Hosting.dll": {}
+        }
+      },
+      "System.Composition.Runtime/1.0.33": {
+        "runtime": {
+          "System.Composition.Runtime.dll": {}
+        }
+      },
+      "System.Composition.TypedParts/1.0.33": {
+        "runtime": {
+          "System.Composition.TypedParts.dll": {}
+        }
+      },
+      "System.Configuration.ConfigurationManager/4.0.1": {
+        "runtime": {
+          "System.Configuration.ConfigurationManager.dll": {}
+        }
+      },
+      "System.Configuration/4.0.0": {
+        "runtime": {
+          "System.Configuration.dll": {}
+        }
+      },
+      "System.Console/4.1.1": {
+        "runtime": {
+          "System.Console.dll": {}
+        }
+      },
+      "System.Core/4.0.0": {
+        "runtime": {
+          "System.Core.dll": {}
+        }
+      },
+      "System.Data.Common/4.2.1": {
+        "runtime": {
+          "System.Data.Common.dll": {}
+        }
+      },
+      "System.Data.DataSetExtensions/4.0.0": {
+        "runtime": {
+          "System.Data.DataSetExtensions.dll": {}
+        }
+      },
+      "System.Data/4.0.0": {
+        "runtime": {
+          "System.Data.dll": {}
+        }
+      },
+      "System.Data.SqlClient/4.3.0": {
+        "runtime": {
+          "System.Data.SqlClient.dll": {}
+        }
+      },
+      "System.Diagnostics.Contracts/4.0.3": {
+        "runtime": {
+          "System.Diagnostics.Contracts.dll": {}
+        }
+      },
+      "System.Diagnostics.Debug/4.1.1": {
+        "runtime": {
+          "System.Diagnostics.Debug.dll": {}
+        }
+      },
+      "System.Diagnostics.DiagnosticSource/4.0.3": {
+        "runtime": {
+          "System.Diagnostics.DiagnosticSource.dll": {}
+        }
+      },
+      "System.Diagnostics.FileVersionInfo/4.0.3": {
+        "runtime": {
+          "System.Diagnostics.FileVersionInfo.dll": {}
+        }
+      },
+      "System.Diagnostics.Process/4.2.1": {
+        "runtime": {
+          "System.Diagnostics.Process.dll": {}
+        }
+      },
+      "System.Diagnostics.StackTrace/4.1.1": {
+        "runtime": {
+          "System.Diagnostics.StackTrace.dll": {}
+        }
+      },
+      "System.Diagnostics.TextWriterTraceListener/4.1.1": {
+        "runtime": {
+          "System.Diagnostics.TextWriterTraceListener.dll": {}
+        }
+      },
+      "System.Diagnostics.Tools/4.1.1": {
+        "runtime": {
+          "System.Diagnostics.Tools.dll": {}
+        }
+      },
+      "System.Diagnostics.TraceSource/4.1.1": {
+        "runtime": {
+          "System.Diagnostics.TraceSource.dll": {}
+        }
+      },
+      "System.Diagnostics.Tracing/4.2.1": {
+        "runtime": {
+          "System.Diagnostics.Tracing.dll": {}
+        }
+      },
+      "System.DirectoryServices.AccountManagement/4.0.0": {
+        "runtime": {
+          "System.DirectoryServices.AccountManagement.dll": {}
+        }
+      },
+      "System.DirectoryServices/4.0.0": {
+        "runtime": {
+          "System.DirectoryServices.dll": {}
+        }
+      },
+      "System.DirectoryServices.Protocols/4.0.0": {
+        "runtime": {
+          "System.DirectoryServices.Protocols.dll": {}
+        }
+      },
+      "System.Drawing.Common/4.0.0": {
+        "runtime": {
+          "System.Drawing.Common.dll": {}
+        }
+      },
+      "System.Drawing/4.0.0": {
+        "runtime": {
+          "System.Drawing.dll": {}
+        }
+      },
+      "System.Drawing.Primitives/4.2.0": {
+        "runtime": {
+          "System.Drawing.Primitives.dll": {}
+        }
+      },
+      "System.Dynamic.Runtime/4.1.1": {
+        "runtime": {
+          "System.Dynamic.Runtime.dll": {}
+        }
+      },
+      "System.Globalization.Calendars/4.1.1": {
+        "runtime": {
+          "System.Globalization.Calendars.dll": {}
+        }
+      },
+      "System.Globalization/4.1.1": {
+        "runtime": {
+          "System.Globalization.dll": {}
+        }
+      },
+      "System.Globalization.Extensions/4.1.1": {
+        "runtime": {
+          "System.Globalization.Extensions.dll": {}
+        }
+      },
+      "System.IO.Compression/4.2.1": {
+        "runtime": {
+          "System.IO.Compression.dll": {}
+        }
+      },
+      "System.IO.Compression.FileSystem/4.0.0": {
+        "runtime": {
+          "System.IO.Compression.FileSystem.dll": {}
+        }
+      },
+      "System.IO.Compression.ZipFile/4.0.4": {
+        "runtime": {
+          "System.IO.Compression.ZipFile.dll": {}
+        }
+      },
+      "System.IO/4.2.1": {
+        "runtime": {
+          "System.IO.dll": {}
+        }
+      },
+      "System.IO.FileSystem.AccessControl/4.0.3": {
+        "runtime": {
+          "System.IO.FileSystem.AccessControl.dll": {}
+        }
+      },
+      "System.IO.FileSystem/4.1.1": {
+        "runtime": {
+          "System.IO.FileSystem.dll": {}
+        }
+      },
+      "System.IO.FileSystem.DriveInfo/4.1.1": {
+        "runtime": {
+          "System.IO.FileSystem.DriveInfo.dll": {}
+        }
+      },
+      "System.IO.FileSystem.Primitives/4.1.1": {
+        "runtime": {
+          "System.IO.FileSystem.Primitives.dll": {}
+        }
+      },
+      "System.IO.IsolatedStorage/4.1.1": {
+        "runtime": {
+          "System.IO.IsolatedStorage.dll": {}
+        }
+      },
+      "System.IO.MemoryMappedFiles/4.1.1": {
+        "runtime": {
+          "System.IO.MemoryMappedFiles.dll": {}
+        }
+      },
+      "System.IO.Packaging/4.0.3": {
+        "runtime": {
+          "System.IO.Packaging.dll": {}
+        }
+      },
+      "System.IO.Pipes.AccessControl/4.0.3": {
+        "runtime": {
+          "System.IO.Pipes.AccessControl.dll": {}
+        }
+      },
+      "System.IO.Pipes/4.1.1": {
+        "runtime": {
+          "System.IO.Pipes.dll": {}
+        }
+      },
+      "System.IO.Ports/4.0.1": {
+        "runtime": {
+          "System.IO.Ports.dll": {}
+        }
+      },
+      "System.IO.UnmanagedMemoryStream/4.1.1": {
+        "runtime": {
+          "System.IO.UnmanagedMemoryStream.dll": {}
+        }
+      },
+      "System.Json/2.0.6": {
+        "runtime": {
+          "System.Json.dll": {}
+        }
+      },
+      "System.Linq/4.2.1": {
+        "runtime": {
+          "System.Linq.dll": {}
+        }
+      },
+      "System.Linq.Expressions/4.2.1": {
+        "runtime": {
+          "System.Linq.Expressions.dll": {}
+        }
+      },
+      "System.Linq.Parallel/4.0.3": {
+        "runtime": {
+          "System.Linq.Parallel.dll": {}
+        }
+      },
+      "System.Linq.Queryable/4.0.3": {
+        "runtime": {
+          "System.Linq.Queryable.dll": {}
+        }
+      },
+      "System.Memory/4.0.1": {
+        "runtime": {
+          "System.Memory.dll": {}
+        }
+      },
+      "System.Net/4.0.0": {
+        "runtime": {
+          "System.Net.dll": {}
+        }
+      },
+      "System.Net.Http/4.2.1": {
+        "runtime": {
+          "System.Net.Http.dll": {}
+        }
+      },
+      "System.Net.Http.WinHttpHandler/4.0.3": {
+        "runtime": {
+          "System.Net.Http.WinHttpHandler.dll": {}
+        }
+      },
+      "System.Net.HttpListener/4.0.1": {
+        "runtime": {
+          "System.Net.HttpListener.dll": {}
+        }
+      },
+      "System.Net.Mail/4.0.1": {
+        "runtime": {
+          "System.Net.Mail.dll": {}
+        }
+      },
+      "System.Net.NameResolution/4.1.1": {
+        "runtime": {
+          "System.Net.NameResolution.dll": {}
+        }
+      },
+      "System.Net.Ping/4.1.1": {
+        "runtime": {
+          "System.Net.Ping.dll": {}
+        }
+      },
+      "System.Net.Primitives/4.1.1": {
+        "runtime": {
+          "System.Net.Primitives.dll": {}
+        }
+      },
+      "System.Net.Requests/4.1.1": {
+        "runtime": {
+          "System.Net.Requests.dll": {}
+        }
+      },
+      "System.Net.Security/4.1.1": {
+        "runtime": {
+          "System.Net.Security.dll": {}
+        }
+      },
+      "System.Net.ServicePoint/4.0.1": {
+        "runtime": {
+          "System.Net.ServicePoint.dll": {}
+        }
+      },
+      "System.Net.Sockets/4.2.1": {
+        "runtime": {
+          "System.Net.Sockets.dll": {}
+        }
+      },
+      "System.Net.WebClient/4.0.1": {
+        "runtime": {
+          "System.Net.WebClient.dll": {}
+        }
+      },
+      "System.Net.WebHeaderCollection/4.1.1": {
+        "runtime": {
+          "System.Net.WebHeaderCollection.dll": {}
+        }
+      },
+      "System.Net.WebProxy/4.0.1": {
+        "runtime": {
+          "System.Net.WebProxy.dll": {}
+        }
+      },
+      "System.Net.WebSockets.Client/4.1.1": {
+        "runtime": {
+          "System.Net.WebSockets.Client.dll": {}
+        }
+      },
+      "System.Net.WebSockets/4.1.1": {
+        "runtime": {
+          "System.Net.WebSockets.dll": {}
+        }
+      },
+      "System.Numerics/4.0.0": {
+        "runtime": {
+          "System.Numerics.dll": {}
+        }
+      },
+      "System.Numerics.Vectors/4.1.4": {
+        "runtime": {
+          "System.Numerics.Vectors.dll": {}
+        }
+      },
+      "System.ObjectModel/4.1.1": {
+        "runtime": {
+          "System.ObjectModel.dll": {}
+        }
+      },
+      "System.Private.CoreLib/4.0.0": {
+        "runtime": {
+          "System.Private.CoreLib.dll": {}
+        }
+      },
+      "System.Private.DataContractSerialization/4.1.4": {
+        "runtime": {
+          "System.Private.DataContractSerialization.dll": {}
+        }
+      },
+      "System.Private.Uri/4.0.5": {
+        "runtime": {
+          "System.Private.Uri.dll": {}
+        }
+      },
+      "System.Private.Xml/4.0.1": {
+        "runtime": {
+          "System.Private.Xml.dll": {}
+        }
+      },
+      "System.Private.Xml.Linq/4.0.1": {
+        "runtime": {
+          "System.Private.Xml.Linq.dll": {}
+        }
+      },
+      "System.Reflection.Context/4.0.3": {
+        "runtime": {
+          "System.Reflection.Context.dll": {}
+        }
+      },
+      "System.Reflection.DispatchProxy/4.0.4": {
+        "runtime": {
+          "System.Reflection.DispatchProxy.dll": {}
+        }
+      },
+      "System.Reflection/4.2.1": {
+        "runtime": {
+          "System.Reflection.dll": {}
+        }
+      },
+      "System.Reflection.Emit/4.1.1": {
+        "runtime": {
+          "System.Reflection.Emit.dll": {}
+        }
+      },
+      "System.Reflection.Emit.ILGeneration/4.0.3": {
+        "runtime": {
+          "System.Reflection.Emit.ILGeneration.dll": {}
+        }
+      },
+      "System.Reflection.Emit.Lightweight/4.0.3": {
+        "runtime": {
+          "System.Reflection.Emit.Lightweight.dll": {}
+        }
+      },
+      "System.Reflection.Extensions/4.1.1": {
+        "runtime": {
+          "System.Reflection.Extensions.dll": {}
+        }
+      },
+      "System.Reflection.Metadata/1.4.3": {
+        "runtime": {
+          "System.Reflection.Metadata.dll": {}
+        }
+      },
+      "System.Reflection.Primitives/4.1.1": {
+        "runtime": {
+          "System.Reflection.Primitives.dll": {}
+        }
+      },
+      "System.Reflection.TypeExtensions/4.1.3": {
+        "runtime": {
+          "System.Reflection.TypeExtensions.dll": {}
+        }
+      },
+      "System.Resources.Reader/4.1.1": {
+        "runtime": {
+          "System.Resources.Reader.dll": {}
+        }
+      },
+      "System.Resources.ResourceManager/4.1.1": {
+        "runtime": {
+          "System.Resources.ResourceManager.dll": {}
+        }
+      },
+      "System.Resources.Writer/4.1.1": {
+        "runtime": {
+          "System.Resources.Writer.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.0.4": {
+        "runtime": {
+          "System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.VisualC/4.1.1": {
+        "runtime": {
+          "System.Runtime.CompilerServices.VisualC.dll": {}
+        }
+      },
+      "System.Runtime/4.2.1": {
+        "runtime": {
+          "System.Runtime.dll": {}
+        }
+      },
+      "System.Runtime.Extensions/4.2.1": {
+        "runtime": {
+          "System.Runtime.Extensions.dll": {}
+        }
+      },
+      "System.Runtime.Handles/4.1.1": {
+        "runtime": {
+          "System.Runtime.Handles.dll": {}
+        }
+      },
+      "System.Runtime.InteropServices/4.2.1": {
+        "runtime": {
+          "System.Runtime.InteropServices.dll": {}
+        }
+      },
+      "System.Runtime.InteropServices.RuntimeInformation/4.0.3": {
+        "runtime": {
+          "System.Runtime.InteropServices.RuntimeInformation.dll": {}
+        }
+      },
+      "System.Runtime.InteropServices.WindowsRuntime/4.0.3": {
+        "runtime": {
+          "System.Runtime.InteropServices.WindowsRuntime.dll": {}
+        }
+      },
+      "System.Runtime.Loader/4.0.3": {
+        "runtime": {
+          "System.Runtime.Loader.dll": {}
+        }
+      },
+      "System.Runtime.Numerics/4.1.1": {
+        "runtime": {
+          "System.Runtime.Numerics.dll": {}
+        }
+      },
+      "System.Runtime.Serialization/4.0.0": {
+        "runtime": {
+          "System.Runtime.Serialization.dll": {}
+        }
+      },
+      "System.Runtime.Serialization.Formatters/4.0.3": {
+        "runtime": {
+          "System.Runtime.Serialization.Formatters.dll": {}
+        }
+      },
+      "System.Runtime.Serialization.Json/4.0.4": {
+        "runtime": {
+          "System.Runtime.Serialization.Json.dll": {}
+        }
+      },
+      "System.Runtime.Serialization.Primitives/4.2.1": {
+        "runtime": {
+          "System.Runtime.Serialization.Primitives.dll": {}
+        }
+      },
+      "System.Runtime.Serialization.Xml/4.1.4": {
+        "runtime": {
+          "System.Runtime.Serialization.Xml.dll": {}
+        }
+      },
+      "System.Security.AccessControl/4.1.1": {
+        "runtime": {
+          "System.Security.AccessControl.dll": {}
+        }
+      },
+      "System.Security.Claims/4.1.1": {
+        "runtime": {
+          "System.Security.Claims.dll": {}
+        }
+      },
+      "System.Security.Cryptography.Algorithms/4.3.1": {
+        "runtime": {
+          "System.Security.Cryptography.Algorithms.dll": {}
+        }
+      },
+      "System.Security.Cryptography.Cng/4.3.1": {
+        "runtime": {
+          "System.Security.Cryptography.Cng.dll": {}
+        }
+      },
+      "System.Security.Cryptography.Csp/4.1.1": {
+        "runtime": {
+          "System.Security.Cryptography.Csp.dll": {}
+        }
+      },
+      "System.Security.Cryptography.Encoding/4.1.1": {
+        "runtime": {
+          "System.Security.Cryptography.Encoding.dll": {}
+        }
+      },
+      "System.Security.Cryptography.OpenSsl/4.1.1": {
+        "runtime": {
+          "System.Security.Cryptography.OpenSsl.dll": {}
+        }
+      },
+      "System.Security.Cryptography.Pkcs/4.0.3": {
+        "runtime": {
+          "System.Security.Cryptography.Pkcs.dll": {}
+        }
+      },
+      "System.Security.Cryptography.Primitives/4.1.1": {
+        "runtime": {
+          "System.Security.Cryptography.Primitives.dll": {}
+        }
+      },
+      "System.Security.Cryptography.ProtectedData/4.0.3": {
+        "runtime": {
+          "System.Security.Cryptography.ProtectedData.dll": {}
+        }
+      },
+      "System.Security.Cryptography.X509Certificates/4.2.1": {
+        "runtime": {
+          "System.Security.Cryptography.X509Certificates.dll": {}
+        }
+      },
+      "System.Security.Cryptography.Xml/4.0.1": {
+        "runtime": {
+          "System.Security.Cryptography.Xml.dll": {}
+        }
+      },
+      "System.Security/4.0.0": {
+        "runtime": {
+          "System.Security.dll": {}
+        }
+      },
+      "System.Security.Permissions/4.0.1": {
+        "runtime": {
+          "System.Security.Permissions.dll": {}
+        }
+      },
+      "System.Security.Principal/4.1.1": {
+        "runtime": {
+          "System.Security.Principal.dll": {}
+        }
+      },
+      "System.Security.Principal.Windows/4.1.1": {
+        "runtime": {
+          "System.Security.Principal.Windows.dll": {}
+        }
+      },
+      "System.Security.SecureString/4.1.1": {
+        "runtime": {
+          "System.Security.SecureString.dll": {}
+        }
+      },
+      "System.ServiceModel.Web/4.0.0": {
+        "runtime": {
+          "System.ServiceModel.Web.dll": {}
+        }
+      },
+      "System.ServiceProcess/4.0.0": {
+        "runtime": {
+          "System.ServiceProcess.dll": {}
+        }
+      },
+      "System.ServiceProcess.ServiceController/4.2.1": {
+        "runtime": {
+          "System.ServiceProcess.ServiceController.dll": {}
+        }
+      },
+      "System.Text.Encoding.CodePages/4.1.1": {
+        "runtime": {
+          "System.Text.Encoding.CodePages.dll": {}
+        }
+      },
+      "System.Text.Encoding/4.1.1": {
+        "runtime": {
+          "System.Text.Encoding.dll": {}
+        }
+      },
+      "System.Text.Encoding.Extensions/4.1.1": {
+        "runtime": {
+          "System.Text.Encoding.Extensions.dll": {}
+        }
+      },
+      "System.Text.Encodings.Web/4.0.3": {
+        "runtime": {
+          "System.Text.Encodings.Web.dll": {}
+        }
+      },
+      "System.Text.RegularExpressions/4.2.1": {
+        "runtime": {
+          "System.Text.RegularExpressions.dll": {}
+        }
+      },
+      "System.Threading.AccessControl/4.0.3": {
+        "runtime": {
+          "System.Threading.AccessControl.dll": {}
+        }
+      },
+      "System.Threading/4.1.1": {
+        "runtime": {
+          "System.Threading.dll": {}
+        }
+      },
+      "System.Threading.Overlapped/4.1.1": {
+        "runtime": {
+          "System.Threading.Overlapped.dll": {}
+        }
+      },
+      "System.Threading.Tasks.Dataflow/4.6.3": {
+        "runtime": {
+          "System.Threading.Tasks.Dataflow.dll": {}
+        }
+      },
+      "System.Threading.Tasks/4.1.1": {
+        "runtime": {
+          "System.Threading.Tasks.dll": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.1.2": {
+        "runtime": {
+          "System.Threading.Tasks.Extensions.dll": {}
+        }
+      },
+      "System.Threading.Tasks.Parallel/4.0.3": {
+        "runtime": {
+          "System.Threading.Tasks.Parallel.dll": {}
+        }
+      },
+      "System.Threading.Thread/4.1.1": {
+        "runtime": {
+          "System.Threading.Thread.dll": {}
+        }
+      },
+      "System.Threading.ThreadPool/4.1.1": {
+        "runtime": {
+          "System.Threading.ThreadPool.dll": {}
+        }
+      },
+      "System.Threading.Timer/4.1.1": {
+        "runtime": {
+          "System.Threading.Timer.dll": {}
+        }
+      },
+      "System.Transactions/4.0.0": {
+        "runtime": {
+          "System.Transactions.dll": {}
+        }
+      },
+      "System.Transactions.Local/4.0.1": {
+        "runtime": {
+          "System.Transactions.Local.dll": {}
+        }
+      },
+      "System.ValueTuple/4.0.3": {
+        "runtime": {
+          "System.ValueTuple.dll": {}
+        }
+      },
+      "System.Web/4.0.0": {
+        "runtime": {
+          "System.Web.dll": {}
+        }
+      },
+      "System.Web.HttpUtility/4.0.1": {
+        "runtime": {
+          "System.Web.HttpUtility.dll": {}
+        }
+      },
+      "System.Windows/4.0.0": {
+        "runtime": {
+          "System.Windows.dll": {}
+        }
+      },
+      "System.Xml/4.0.0": {
+        "runtime": {
+          "System.Xml.dll": {}
+        }
+      },
+      "System.Xml.Linq/4.0.0": {
+        "runtime": {
+          "System.Xml.Linq.dll": {}
+        }
+      },
+      "System.Xml.ReaderWriter/4.2.1": {
+        "runtime": {
+          "System.Xml.ReaderWriter.dll": {}
+        }
+      },
+      "System.Xml.Serialization/4.0.0": {
+        "runtime": {
+          "System.Xml.Serialization.dll": {}
+        }
+      },
+      "System.Xml.XDocument/4.1.1": {
+        "runtime": {
+          "System.Xml.XDocument.dll": {}
+        }
+      },
+      "System.Xml.XmlDocument/4.1.1": {
+        "runtime": {
+          "System.Xml.XmlDocument.dll": {}
+        }
+      },
+      "System.Xml.XmlSerializer/4.1.1": {
+        "runtime": {
+          "System.Xml.XmlSerializer.dll": {}
+        }
+      },
+      "System.Xml.XPath/4.1.1": {
+        "runtime": {
+          "System.Xml.XPath.dll": {}
+        }
+      },
+      "System.Xml.XPath.XDocument/4.1.1": {
+        "runtime": {
+          "System.Xml.XPath.XDocument.dll": {}
+        }
+      },
+      "WindowsBase/4.0.0": {
+        "runtime": {
+          "WindowsBase.dll": {}
+        }
+      },
+      "xunit.abstractions/2.0.0": {
+        "runtime": {
+          "xunit.abstractions.dll": {}
+        }
+      },
+      "xunit.assert/2.2.0": {
+        "runtime": {
+          "xunit.assert.dll": {}
+        }
+      },
+      "xunit.console.netcore/99.99.99": {
+        "runtime": {
+          "xunit.console.netcore.dll": {}
+        }
+      },
+      "xunit.core/2.2.0": {
+        "runtime": {
+          "xunit.core.dll": {}
+        }
+      },
+      "xunit.execution.dotnet/2.2.0": {
+        "runtime": {
+          "xunit.execution.dotnet.dll": {}
+        }
+      },
+      "Xunit.NetCore.Extensions/999.999.999": {
+        "runtime": {
+          "Xunit.NetCore.Extensions.dll": {}
+        }
+      },
+      "xunit.performance.api/1.0.0": {
+        "runtime": {
+          "xunit.performance.api.dll": {}
+        }
+      },
+      "xunit.performance.core/1.0.0": {
+        "runtime": {
+          "xunit.performance.core.dll": {}
+        }
+      },
+      "xunit.performance.execution/1.0.0": {
+        "runtime": {
+          "xunit.performance.execution.dll": {}
+        }
+      },
+      "xunit.performance.metrics/1.0.0": {
+        "runtime": {
+          "xunit.performance.metrics.dll": {}
+        }
+      },
+      "xunit.runner.utility.dotnet/2.2.0": {
+        "runtime": {
+          "xunit.runner.utility.dotnet.dll": {}
         }
       }
     }
   },
+  "runtimes": {
+    "freebsd.11-x64": [
+      "freebsd.11",
+      "unix-x64",
+      "unix",
+      "any",
+      "base"
+    ],
+    "freebsd.11": [
+      "unix",
+      "any",
+      "base"
+    ],
+    "freebsd.11.10.10": [
+      "freebsd.11",
+      "unix",
+      "any",
+      "base"
+    ],
+    "freebsd.11.10.10-x64": [
+      "freebsd.11.10.10",
+      "freebsd.11-x64",
+      "freebsd.11",
+      "unix-x64",
+      "unix",
+      "any",
+      "base"
+    ],
+    "freebsd.11.10.11": [
+      "freebsd.11.10.10",
+      "freebsd.11",
+      "unix",
+      "any",
+      "base"
+    ],
+    "freebsd.11.10.11-x64": [
+      "freebsd.11.10.11",
+      "freebsd.11.10.10-x64",
+      "freebsd.11.10.10",
+      "freebsd.11-x64",
+      "freebsd.11",
+      "unix-x64",
+      "unix",
+      "any",
+      "base"
+    ],
+    "freebsd.11.10.12": [
+      "freebsd.11.10.11",
+      "freebsd.11.10.10",
+      "freebsd.11",
+      "unix",
+      "any",
+      "base"
+    ],
+    "freebsd.11.10.12-x64": [
+      "freebsd.11.10.12",
+      "freebsd.11.10.11-x64",
+      "freebsd.11.10.11",
+      "freebsd.11.10.10-x64",
+      "freebsd.11.10.10",
+      "freebsd.11-x64",
+      "freebsd.11",
+      "unix-x64",
+      "unix",
+      "any",
+      "base"
+    ],
+    "freebsd.11-corert": [
+      "unix-corert",
+      "freebsd.11",
+      "corert",
+      "unix",
+      "any",
+      "base"
+    ],
+    "freebsd.11-x64-corert": [
+      "freebsd.11-corert",
+      "unix-x64-corert",
+      "freebsd.11-x64",
+      "unix-corert",
+      "freebsd.11",
+      "unix-x64",
+      "corert",
+      "unix",
+      "any",
+      "base"
+    ],
+    "freebsd.11.10.10-corert": [
+      "freebsd.11-corert",
+      "freebsd.11.10.10",
+      "unix-corert",
+      "freebsd.11",
+      "corert",
+      "unix",
+      "any",
+      "base"
+    ],
+    "freebsd.11.10.10-x64-corert": [
+      "freebsd.11.10.10-corert",
+      "freebsd.11-x64-corert",
+      "freebsd.11.10.10-x64",
+      "freebsd.11-corert",
+      "freebsd.11.10.10",
+      "unix-x64-corert",
+      "freebsd.11-x64",
+      "unix-corert",
+      "freebsd.11",
+      "unix-x64",
+      "corert",
+      "unix",
+      "any",
+      "base"
+    ],
+    "freebsd.11.10.11-corert": [
+      "freebsd.11.10.10-corert",
+      "freebsd.11.10.11",
+      "freebsd.11-corert",
+      "freebsd.11.10.10",
+      "unix-corert",
+      "freebsd.11",
+      "corert",
+      "unix",
+      "any",
+      "base"
+    ],
+    "freebsd.11.10.11-x64-corert": [
+      "freebsd.11.10.11-corert",
+      "freebsd.11.10.10-x64-corert",
+      "freebsd.11.10.11-x64",
+      "freebsd.11.10.10-corert",
+      "freebsd.11.10.11",
+      "freebsd.11-x64-corert",
+      "freebsd.11.10.10-x64",
+      "freebsd.11-corert",
+      "freebsd.11.10.10",
+      "unix-x64-corert",
+      "freebsd.11-x64",
+      "unix-corert",
+      "freebsd.11",
+      "unix-x64",
+      "corert",
+      "unix",
+      "any",
+      "base"
+    ],
+    "freebsd.11.10.12-corert": [
+      "freebsd.11.10.11-corert",
+      "freebsd.11.10.12",
+      "freebsd.11.10.10-corert",
+      "freebsd.11.10.11",
+      "freebsd.11-corert",
+      "freebsd.11.10.10",
+      "unix-corert",
+      "freebsd.11",
+      "corert",
+      "unix",
+      "any",
+      "base"
+    ],
+    "freebsd.11.10.12-x64-corert": [
+      "freebsd.11.10.12-corert",
+      "freebsd.11.10.11-x64-corert",
+      "freebsd.11.10.12-x64",
+      "freebsd.11.10.11-corert",
+      "freebsd.11.10.12",
+      "freebsd.11.10.10-x64-corert",
+      "freebsd.11.10.11-x64",
+      "freebsd.11.10.10-corert",
+      "freebsd.11.10.11",
+      "freebsd.11-x64-corert",
+      "freebsd.11.10.10-x64",
+      "freebsd.11-corert",
+      "freebsd.11.10.10",
+      "unix-x64-corert",
+      "freebsd.11-x64",
+      "unix-corert",
+      "freebsd.11",
+      "unix-x64",
+      "corert",
+      "unix",
+      "any",
+      "base"
+    ]
+  },
   "libraries": {
-    "Microsoft.NETCore.App/2.0.1": {
+    "microsoft.netcore.app/2.0.0-preview1-002111-00": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-bKxPlzUPzTIePunYUUejrD560AVmbWp57LOTl8s/xzBcHI12L175GhV3qhMLFYlmB+5kBOlwmvZsQah3ScwReA==",
-      "path": "microsoft.netcore.app/2.0.1",
-      "hashPath": "microsoft.netcore.app.2.0.1.nupkg.sha512"
+      "sha512": ""
     },
-    "Microsoft.NETCore.DotNetHostPolicy/2.0.1": {
+    "runtime.freebsd.11-x64.microsoft.netcore.app/2.0.0-preview1-002111-00": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ibKPCuZkF18/ptQyok7kYjFnJaACxBd5n/EzkvJ151tAUI52mLURFzyr8+1YbD+2vhi7vXahXnjtvNzIAXpNDw=="
+      "sha512": ""
     },
-    "Microsoft.NETCore.Platforms/2.0.0": {
+    "CommandLine/2.0.275": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-VdLJOCXhZaEMY7Hm2GKiULmn7IEPFE4XC5LPSfBVCUIA8YLZVh846gtfBJalsPQF2PlzdD7ecX7DZEulJ402ZQ==",
-      "path": "microsoft.netcore.platforms/2.0.0",
-      "hashPath": "microsoft.netcore.platforms.2.0.0.nupkg.sha512"
+      "sha512": ""
     },
-    "NETStandard.Library/2.0.0": {
+    "CoreFx.Private.TestUtilities/1.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-7jnbRU+L08FXKMxqUflxEXtVymWvNOrS8yHgu9s6EM8Anr6T/wIX4nZ08j/u3Asz+tCufp3YVwFSEvFTPYmBPA==",
-      "path": "netstandard.library/2.0.0",
-      "hashPath": "netstandard.library.2.0.0.nupkg.sha512"
+      "sha512": ""
     },
-    "runtime.linux-x64.Microsoft.NETCore.App/2.0.1": {
+    "dotnet-Microsoft.XmlSerializer.Generator/1.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-WylqLaeqPKr261AXdHdSNTARlDB9Y9W0+HaSa9g+WHSgWjgYZRrXPu0qDGWBwt6CNIHMXHg2pNt9b6eMm6jb8w==",
-      "path": "runtime.linux-x64.microsoft.netcore.app/2.0.1",
-      "hashPath": "runtime.linux-x64.microsoft.netcore.app.2.0.1.nupkg.sha512"
+      "sha512": ""
     },
-    "xunit.runner.utility.dotnet/2.2.0": {
+    "Microsoft.3rdpartytools.MarkdownLog/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "Microsoft.CSharp/4.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "Microsoft.Diagnostics.Tracing.TraceEvent/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "Microsoft.VisualBasic/10.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "Microsoft.Win32.Primitives/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "Microsoft.Win32.Registry.AccessControl/4.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "Microsoft.Win32.Registry/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "netstandard/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/9.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "SOS.NETCore/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.AppContext/4.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Buffers/4.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.CodeDom/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Collections.Concurrent/4.0.14": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Collections/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Collections.Immutable/1.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Collections.NonGeneric/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Collections.Specialized/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.ComponentModel.Annotations/4.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.ComponentModel.Composition/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.ComponentModel.DataAnnotations/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.ComponentModel/4.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.ComponentModel.EventBasedAsync/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.ComponentModel.Primitives/4.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.ComponentModel.TypeConverter/4.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Composition.AttributedModel/1.0.33": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Composition.Convention/1.0.33": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Composition.Hosting/1.0.33": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Composition.Runtime/1.0.33": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Composition.TypedParts/1.0.33": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Configuration.ConfigurationManager/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Configuration/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Console/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Core/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Data.Common/4.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Data.DataSetExtensions/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Data/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Data.SqlClient/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Diagnostics.Contracts/4.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Diagnostics.Debug/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Diagnostics.DiagnosticSource/4.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Diagnostics.FileVersionInfo/4.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Diagnostics.Process/4.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Diagnostics.StackTrace/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Diagnostics.TextWriterTraceListener/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Diagnostics.Tools/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Diagnostics.TraceSource/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Diagnostics.Tracing/4.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.DirectoryServices.AccountManagement/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.DirectoryServices/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.DirectoryServices.Protocols/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Drawing.Common/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Drawing/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Drawing.Primitives/4.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Dynamic.Runtime/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Globalization.Calendars/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Globalization/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Globalization.Extensions/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.IO.Compression/4.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.IO.Compression.FileSystem/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.IO.Compression.ZipFile/4.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.IO/4.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.IO.FileSystem.AccessControl/4.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.IO.FileSystem/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.IO.FileSystem.DriveInfo/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.IO.FileSystem.Primitives/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.IO.IsolatedStorage/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.IO.MemoryMappedFiles/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.IO.Packaging/4.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.IO.Pipes.AccessControl/4.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.IO.Pipes/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.IO.Ports/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.IO.UnmanagedMemoryStream/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Json/2.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Linq/4.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Linq.Expressions/4.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Linq.Parallel/4.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Linq.Queryable/4.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Memory/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Net/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Net.Http/4.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Net.Http.WinHttpHandler/4.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Net.HttpListener/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Net.Mail/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Net.NameResolution/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Net.Ping/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Net.Primitives/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Net.Requests/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Net.Security/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Net.ServicePoint/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Net.Sockets/4.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Net.WebClient/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Net.WebHeaderCollection/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Net.WebProxy/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Net.WebSockets.Client/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Net.WebSockets/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Numerics/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Numerics.Vectors/4.1.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.ObjectModel/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Private.CoreLib/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Private.DataContractSerialization/4.1.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Private.Uri/4.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Private.Xml/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Private.Xml.Linq/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Reflection.Context/4.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Reflection.DispatchProxy/4.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Reflection/4.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Reflection.Emit/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Reflection.Emit.ILGeneration/4.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Reflection.Emit.Lightweight/4.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Reflection.Extensions/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Reflection.Metadata/1.4.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Reflection.Primitives/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Reflection.TypeExtensions/4.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Resources.Reader/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Resources.ResourceManager/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Resources.Writer/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Runtime.CompilerServices.VisualC/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Runtime/4.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Runtime.Extensions/4.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Runtime.Handles/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Runtime.InteropServices/4.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Runtime.InteropServices.RuntimeInformation/4.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Runtime.InteropServices.WindowsRuntime/4.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Runtime.Loader/4.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Runtime.Numerics/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Runtime.Serialization/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Runtime.Serialization.Formatters/4.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Runtime.Serialization.Json/4.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Runtime.Serialization.Primitives/4.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Runtime.Serialization.Xml/4.1.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Security.AccessControl/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Security.Claims/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Security.Cryptography.Algorithms/4.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Security.Cryptography.Cng/4.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Security.Cryptography.Csp/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Security.Cryptography.Encoding/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Security.Cryptography.OpenSsl/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Security.Cryptography.Pkcs/4.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Security.Cryptography.Primitives/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Security.Cryptography.ProtectedData/4.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Security.Cryptography.X509Certificates/4.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Security.Cryptography.Xml/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Security/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Security.Permissions/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Security.Principal/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Security.Principal.Windows/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Security.SecureString/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.ServiceModel.Web/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.ServiceProcess/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.ServiceProcess.ServiceController/4.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Text.Encoding.CodePages/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Text.Encoding/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Text.Encoding.Extensions/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Text.Encodings.Web/4.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Text.RegularExpressions/4.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Threading.AccessControl/4.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Threading/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Threading.Overlapped/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Threading.Tasks.Dataflow/4.6.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Threading.Tasks/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Threading.Tasks.Extensions/4.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Threading.Tasks.Parallel/4.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Threading.Thread/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Threading.ThreadPool/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Threading.Timer/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Transactions/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Transactions.Local/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.ValueTuple/4.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Web/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Web.HttpUtility/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Windows/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Xml/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Xml.Linq/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Xml.ReaderWriter/4.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Xml.Serialization/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Xml.XDocument/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Xml.XmlDocument/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Xml.XmlSerializer/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Xml.XPath/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "System.Xml.XPath.XDocument/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "WindowsBase/4.0.0": {
       "type": "package",
       "serviceable": true,
       "sha512": ""
@@ -460,22 +2300,12 @@
       "serviceable": true,
       "sha512": ""
     },
-    "xunit.execution.dotnet/2.2.0": {
-        "runtime": {
-          "xunit.execution.dotnet.dll": {}
-        }
-    },
     "xunit.assert/2.2.0": {
-        "runtime": {
-          "xunit.assert.dll": {}
-        }
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
     },
-    "Xunit.NetCore.Extensions/999.999.999": {
-        "runtime": {
-          "Xunit.NetCore.Extensions.dll": {}
-        }
-    },
-    "CoreFx.Private.TestUtilities/1.0.0": {
+    "xunit.console.netcore/99.99.99": {
       "type": "package",
       "serviceable": true,
       "sha512": ""
@@ -485,2629 +2315,40 @@
       "serviceable": true,
       "sha512": ""
     },
-    "runtime.linux-x64.Microsoft.NETCore.DotNetHostPolicy/2.0.1": {
+    "xunit.execution.dotnet/2.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-MKErfVm8UPLy8v6X/EKXVD/RsxEKhx73GMZcGYp80iXW1SOTUnbGjF6ZoFb+DJScEI1M8FC921ovgqaZdSDDLg=="
+      "sha512": ""
+    },
+    "Xunit.NetCore.Extensions/999.999.999": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "xunit.performance.api/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "xunit.performance.core/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "xunit.performance.execution/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "xunit.performance.metrics/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
+    },
+    "xunit.runner.utility.dotnet/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": ""
     }
-  },
-  "runtimes": {
-    "linux-arm": [
-      "linux",
-      "unix-arm",
-      "unix",
-      "any",
-      "base"
-    ],
-    "linux-x64": [
-      "linux",
-      "unix-x64",
-      "unix",
-      "any",
-      "base"
-    ],
-    "tizen.4.0.0-armel": [
-      "tizen.4.0.0",
-      "tizen-armel",
-      "tizen",
-      "linux-armel",
-      "linux",
-      "unix-armel",
-      "unix",
-      "any",
-      "base"
-    ],
-    "linux": [
-      "unix",
-      "any",
-      "base"
-    ],
-    "linux-x86": [
-      "linux",
-      "unix-x86",
-      "unix",
-      "any",
-      "base"
-    ],
-    "linux-armel": [
-      "linux",
-      "unix-armel",
-      "unix",
-      "any",
-      "base"
-    ],
-    "linux-arm64": [
-      "linux",
-      "unix-arm64",
-      "unix",
-      "any",
-      "base"
-    ],
-    "rhel": [
-      "linux",
-      "unix",
-      "any",
-      "base"
-    ],
-    "rhel-x64": [
-      "rhel",
-      "linux-x64",
-      "linux",
-      "unix-x64",
-      "unix",
-      "any",
-      "base"
-    ],
-    "rhel.7": [
-      "rhel",
-      "linux",
-      "unix",
-      "any",
-      "base"
-    ],
-    "rhel.7-x64": [
-      "rhel.7",
-      "rhel-x64",
-      "rhel",
-      "linux-x64",
-      "linux",
-      "unix-x64",
-      "unix",
-      "any",
-      "base"
-    ],
-    "rhel.7.0": [
-      "rhel.7",
-      "rhel",
-      "linux",
-      "unix",
-      "any",
-      "base"
-    ],
-    "rhel.7.0-x64": [
-      "rhel.7.0",
-      "rhel.7-x64",
-      "rhel.7",
-      "rhel-x64",
-      "rhel",
-      "linux-x64",
-      "linux",
-      "unix-x64",
-      "unix",
-      "any",
-      "base"
-    ],
-    "rhel.7.1": [
-      "rhel.7.0",
-      "rhel.7",
-      "rhel",
-      "linux",
-      "unix",
-      "any",
-      "base"
-    ],
-    "rhel.7.1-x64": [
-      "rhel.7.1",
-      "rhel.7.0-x64",
-      "rhel.7.0",
-      "rhel.7-x64",
-      "rhel.7",
-      "rhel-x64",
-      "rhel",
-      "linux-x64",
-      "linux",
-      "unix-x64",
-      "unix",
-      "any",
-      "base"
-    ],
-    "rhel.7.2": [
-      "rhel.7.1",
-      "rhel.7.0",
-      "rhel.7",
-      "rhel",
-      "linux",
-      "unix",
-      "any",
-      "base"
-    ],
-    "rhel.7.2-x64": [
-      "rhel.7.2",
-      "rhel.7.1-x64",
-      "rhel.7.1",
-      "rhel.7.0-x64",
-      "rhel.7.0",
-      "rhel.7-x64",
-      "rhel.7",
-      "rhel-x64",
-      "rhel",
-      "linux-x64",
-      "linux",
-      "unix-x64",
-      "unix",
-      "any",
-      "base"
-    ],
-    "rhel.7.3": [
-      "rhel.7.2",
-      "rhel.7.1",
-      "rhel.7.0",
-      "rhel.7",
-      "rhel",
-      "linux",
-      "unix",
-      "any",
-      "base"
-    ],
-    "rhel.7.3-x64": [
-      "rhel.7.3",
-      "rhel.7.2-x64",
-      "rhel.7.2",
-      "rhel.7.1-x64",
-      "rhel.7.1",
-      "rhel.7.0-x64",
-      "rhel.7.0",
-      "rhel.7-x64",
-      "rhel.7",
-      "rhel-x64",
-      "rhel",
-      "linux-x64",
-      "linux",
-      "unix-x64",
-      "unix",
-      "any",
-      "base"
-    ],
-    "rhel.7.4": [
-      "rhel.7.3",
-      "rhel.7.2",
-      "rhel.7.1",
-      "rhel.7.0",
-      "rhel.7",
-      "rhel",
-      "linux",
-      "unix",
-      "any",
-      "base"
-    ],
-    "rhel.7.4-x64": [
-      "rhel.7.4",
-      "rhel.7.3-x64",
-      "rhel.7.3",
-      "rhel.7.2-x64",
-      "rhel.7.2",
-      "rhel.7.1-x64",
-      "rhel.7.1",
-      "rhel.7.0-x64",
-      "rhel.7.0",
-      "rhel.7-x64",
-      "rhel.7",
-      "rhel-x64",
-      "rhel",
-      "linux-x64",
-      "linux",
-      "unix-x64",
-      "unix",
-      "any",
-      "base"
-    ],
-    "ol": [
-      "rhel",
-      "linux",
-      "unix",
-      "any",
-      "base"
-    ],
-    "ol-x64": [
-      "ol",
-      "rhel-x64",
-      "rhel",
-      "linux-x64",
-      "linux",
-      "unix-x64",
-      "unix",
-      "any",
-      "base"
-    ],
-    "ol.7": [
-      "ol",
-      "rhel.7",
-      "rhel",
-      "linux",
-      "unix",
-      "any",
-      "base"
-    ],
-    "ol.7-x64": [
-      "ol.7",
-      "ol-x64",
-      "rhel.7-x64",
-      "ol",
-      "rhel.7",
-      "rhel-x64",
-      "rhel",
-      "linux-x64",
-      "linux",
-      "unix-x64",
-      "unix",
-      "any",
-      "base"
-    ],
-    "ol.7.0": [
-      "ol.7",
-      "rhel.7.0",
-      "ol",
-      "rhel.7",
-      "rhel",
-      "linux",
-      "unix",
-      "any",
-      "base"
-    ],
-    "ol.7.0-x64": [
-      "ol.7.0",
-      "ol.7-x64",
-      "rhel.7.0-x64",
-      "ol.7",
-      "rhel.7.0",
-      "ol-x64",
-      "rhel.7-x64",
-      "ol",
-      "rhel.7",
-      "rhel-x64",
-      "rhel",
-      "linux-x64",
-      "linux",
-      "unix-x64",
-      "unix",
-      "any",
-      "base"
-    ],
-    "ol.7.1": [
-      "ol.7.0",
-      "rhel.7.1",
-      "ol.7",
-      "rhel.7.0",
-      "ol",
-      "rhel.7",
-      "rhel",
-      "linux",
-      "unix",
-      "any",
-      "base"
-    ],
-    "ol.7.1-x64": [
-      "ol.7.1",
-      "ol.7.0-x64",
-      "rhel.7.1-x64",
-      "ol.7.0",
-      "rhel.7.1",
-      "ol.7-x64",
-      "rhel.7.0-x64",
-      "ol.7",
-      "rhel.7.0",
-      "ol-x64",
-      "rhel.7-x64",
-      "ol",
-      "rhel.7",
-      "rhel-x64",
-      "rhel",
-      "linux-x64",
-      "linux",
-      "unix-x64",
-      "unix",
-      "any",
-      "base"
-    ],
-    "ol.7.2": [
-      "ol.7.1",
-      "rhel.7.2",
-      "ol.7.0",
-      "rhel.7.1",
-      "ol.7",
-      "rhel.7.0",
-      "ol",
-      "rhel.7",
-      "rhel",
-      "linux",
-      "unix",
-      "any",
-      "base"
-    ],
-    "ol.7.2-x64": [
-      "ol.7.2",
-      "ol.7.1-x64",
-      "rhel.7.2-x64",
-      "ol.7.1",
-      "rhel.7.2",
-      "ol.7.0-x64",
-      "rhel.7.1-x64",
-      "ol.7.0",
-      "rhel.7.1",
-      "ol.7-x64",
-      "rhel.7.0-x64",
-      "ol.7",
-      "rhel.7.0",
-      "ol-x64",
-      "rhel.7-x64",
-      "ol",
-      "rhel.7",
-      "rhel-x64",
-      "rhel",
-      "linux-x64",
-      "linux",
-      "unix-x64",
-      "unix",
-      "any",
-      "base"
-    ],
-    "centos": [
-      "rhel",
-      "linux",
-      "unix",
-      "any",
-      "base"
-    ],
-    "centos-x64": [
-      "centos",
-      "rhel-x64",
-      "rhel",
-      "linux-x64",
-      "linux",
-      "unix-x64",
-      "unix",
-      "any",
-      "base"
-    ],
-    "centos.7": [
-      "centos",
-      "rhel.7",
-      "rhel",
-      "linux",
-      "unix",
-      "any",
-      "base"
-    ],
-    "centos.7-x64": [
-      "centos.7",
-      "centos-x64",
-      "rhel.7-x64",
-      "centos",
-      "rhel.7",
-      "rhel-x64",
-      "rhel",
-      "linux-x64",
-      "linux",
-      "unix-x64",
-      "unix",
-      "any",
-      "base"
-    ],
-    "debian": [
-      "linux",
-      "unix",
-      "any",
-      "base"
-    ],
-    "debian-x64": [
-      "debian",
-      "linux-x64",
-      "linux",
-      "unix-x64",
-      "unix",
-      "any",
-      "base"
-    ],
-    "debian-x86": [
-      "debian",
-      "linux-x86",
-      "linux",
-      "unix-x86",
-      "unix",
-      "any",
-      "base"
-    ],
-    "debian-arm": [
-      "debian",
-      "linux-arm",
-      "linux",
-      "unix-arm",
-      "unix",
-      "any",
-      "base"
-    ],
-    "debian-armel": [
-      "debian",
-      "linux-armel",
-      "linux",
-      "unix-armel",
-      "unix",
-      "any",
-      "base"
-    ],
-    "debian-arm64": [
-      "debian",
-      "linux-arm64",
-      "linux",
-      "unix-arm64",
-      "unix",
-      "any",
-      "base"
-    ],
-    "debian.8": [
-      "debian",
-      "linux",
-      "unix",
-      "any",
-      "base"
-    ],
-    "debian.8-x64": [
-      "debian.8",
-      "debian-x64",
-      "debian",
-      "linux-x64",
-      "linux",
-      "unix-x64",
-      "unix",
-      "any",
-      "base"
-    ],
-    "debian.8-x86": [
-      "debian.8",
-      "debian-x86",
-      "debian",
-      "linux-x86",
-      "linux",
-      "unix-x86",
-      "unix",
-      "any",
-      "base"
-    ],
-    "debian.8-arm": [
-      "debian.8",
-      "debian-arm",
-      "debian",
-      "linux-arm",
-      "linux",
-      "unix-arm",
-      "unix",
-      "any",
-      "base"
-    ],
-    "debian.8-armel": [
-      "debian.8",
-      "debian-armel",
-      "debian",
-      "linux-armel",
-      "linux",
-      "unix-armel",
-      "unix",
-      "any",
-      "base"
-    ],
-    "debian.8-arm64": [
-      "debian.8",
-      "debian-arm64",
-      "debian",
-      "linux-arm64",
-      "linux",
-      "unix-arm64",
-      "unix",
-      "any",
-      "base"
-    ],
-    "tizen": [
-      "linux",
-      "unix",
-      "any",
-      "base"
-    ],
-    "tizen-armel": [
-      "tizen",
-      "linux-armel",
-      "linux",
-      "unix-armel",
-      "unix",
-      "any",
-      "base"
-    ],
-    "ubuntu": [
-      "debian",
-      "linux",
-      "unix",
-      "any",
-      "base"
-    ],
-    "ubuntu-x64": [
-      "ubuntu",
-      "debian-x64",
-      "debian",
-      "linux-x64",
-      "linux",
-      "unix-x64",
-      "unix",
-      "any",
-      "base"
-    ],
-    "ubuntu-x86": [
-      "ubuntu",
-      "debian-x86",
-      "debian",
-      "linux-x86",
-      "linux",
-      "unix-x86",
-      "unix",
-      "any",
-      "base"
-    ],
-    "ubuntu-arm": [
-      "ubuntu",
-      "debian-arm",
-      "debian",
-      "linux-arm",
-      "linux",
-      "unix-arm",
-      "unix",
-      "any",
-      "base"
-    ],
-    "ubuntu-arm64": [
-      "ubuntu",
-      "debian-arm64",
-      "debian",
-      "linux-arm64",
-      "linux",
-      "unix-arm64",
-      "unix",
-      "any",
-      "base"
-    ],
-    "ubuntu.14.04": [
-      "ubuntu",
-      "debian",
-      "linux",
-      "unix",
-      "any",
-      "base"
-    ],
-    "ubuntu.14.04-x64": [
-      "ubuntu.14.04",
-      "ubuntu-x64",
-      "ubuntu",
-      "debian-x64",
-      "debian",
-      "linux-x64",
-      "linux",
-      "unix-x64",
-      "unix",
-      "any",
-      "base"
-    ],
-    "ubuntu.14.04-x86": [
-      "ubuntu.14.04",
-      "ubuntu-x86",
-      "ubuntu",
-      "debian-x86",
-      "debian",
-      "linux-x86",
-      "linux",
-      "unix-x86",
-      "unix",
-      "any",
-      "base"
-    ],
-    "ubuntu.14.04-arm": [
-      "ubuntu.14.04",
-      "ubuntu-arm",
-      "ubuntu",
-      "debian-arm",
-      "debian",
-      "linux-arm",
-      "linux",
-      "unix-arm",
-      "unix",
-      "any",
-      "base"
-    ],
-    "ubuntu.14.10": [
-      "ubuntu",
-      "debian",
-      "linux",
-      "unix",
-      "any",
-      "base"
-    ],
-    "ubuntu.14.10-x64": [
-      "ubuntu.14.10",
-      "ubuntu-x64",
-      "ubuntu",
-      "debian-x64",
-      "debian",
-      "linux-x64",
-      "linux",
-      "unix-x64",
-      "unix",
-      "any",
-      "base"
-    ],
-    "ubuntu.14.10-x86": [
-      "ubuntu.14.10",
-      "ubuntu-x86",
-      "ubuntu",
-      "debian-x86",
-      "debian",
-      "linux-x86",
-      "linux",
-      "unix-x86",
-      "unix",
-      "any",
-      "base"
-    ],
-    "ubuntu.14.10-arm": [
-      "ubuntu.14.10",
-      "ubuntu-arm",
-      "ubuntu",
-      "debian-arm",
-      "debian",
-      "linux-arm",
-      "linux",
-      "unix-arm",
-      "unix",
-      "any",
-      "base"
-    ],
-    "ubuntu.15.04": [
-      "ubuntu",
-      "debian",
-      "linux",
-      "unix",
-      "any",
-      "base"
-    ],
-    "ubuntu.15.04-x64": [
-      "ubuntu.15.04",
-      "ubuntu-x64",
-      "ubuntu",
-      "debian-x64",
-      "debian",
-      "linux-x64",
-      "linux",
-      "unix-x64",
-      "unix",
-      "any",
-      "base"
-    ],
-    "ubuntu.15.04-x86": [
-      "ubuntu.15.04",
-      "ubuntu-x86",
-      "ubuntu",
-      "debian-x86",
-      "debian",
-      "linux-x86",
-      "linux",
-      "unix-x86",
-      "unix",
-      "any",
-      "base"
-    ],
-    "ubuntu.15.04-arm": [
-      "ubuntu.15.04",
-      "ubuntu-arm",
-      "ubuntu",
-      "debian-arm",
-      "debian",
-      "linux-arm",
-      "linux",
-      "unix-arm",
-      "unix",
-      "any",
-      "base"
-    ],
-    "ubuntu.15.10": [
-      "ubuntu",
-      "debian",
-      "linux",
-      "unix",
-      "any",
-      "base"
-    ],
-    "ubuntu.15.10-x64": [
-      "ubuntu.15.10",
-      "ubuntu-x64",
-      "ubuntu",
-      "debian-x64",
-      "debian",
-      "linux-x64",
-      "linux",
-      "unix-x64",
-      "unix",
-      "any",
-      "base"
-    ],
-    "ubuntu.15.10-x86": [
-      "ubuntu.15.10",
-      "ubuntu-x86",
-      "ubuntu",
-      "debian-x86",
-      "debian",
-      "linux-x86",
-      "linux",
-      "unix-x86",
-      "unix",
-      "any",
-      "base"
-    ],
-    "ubuntu.15.10-arm": [
-      "ubuntu.15.10",
-      "ubuntu-arm",
-      "ubuntu",
-      "debian-arm",
-      "debian",
-      "linux-arm",
-      "linux",
-      "unix-arm",
-      "unix",
-      "any",
-      "base"
-    ],
-    "ubuntu.16.04": [
-      "ubuntu",
-      "debian",
-      "linux",
-      "unix",
-      "any",
-      "base"
-    ],
-    "ubuntu.16.04-x64": [
-      "ubuntu.16.04",
-      "ubuntu-x64",
-      "ubuntu",
-      "debian-x64",
-      "debian",
-      "linux-x64",
-      "linux",
-      "unix-x64",
-      "unix",
-      "any",
-      "base"
-    ],
-    "ubuntu.16.04-x86": [
-      "ubuntu.16.04",
-      "ubuntu-x86",
-      "ubuntu",
-      "debian-x86",
-      "debian",
-      "linux-x86",
-      "linux",
-      "unix-x86",
-      "unix",
-      "any",
-      "base"
-    ],
-    "ubuntu.16.04-arm": [
-      "ubuntu.16.04",
-      "ubuntu-arm",
-      "ubuntu",
-      "debian-arm",
-      "debian",
-      "linux-arm",
-      "linux",
-      "unix-arm",
-      "unix",
-      "any",
-      "base"
-    ],
-    "ubuntu.16.04-arm64": [
-      "ubuntu.16.04",
-      "ubuntu-arm64",
-      "ubuntu",
-      "debian-arm64",
-      "debian",
-      "linux-arm64",
-      "linux",
-      "unix-arm64",
-      "unix",
-      "any",
-      "base"
-    ],
-    "ubuntu.16.10": [
-      "ubuntu",
-      "debian",
-      "linux",
-      "unix",
-      "any",
-      "base"
-    ],
-    "ubuntu.16.10-x64": [
-      "ubuntu.16.10",
-      "ubuntu-x64",
-      "ubuntu",
-      "debian-x64",
-      "debian",
-      "linux-x64",
-      "linux",
-      "unix-x64",
-      "unix",
-      "any",
-      "base"
-    ],
-    "ubuntu.16.10-x86": [
-      "ubuntu.16.10",
-      "ubuntu-x86",
-      "ubuntu",
-      "debian-x86",
-      "debian",
-      "linux-x86",
-      "linux",
-      "unix-x86",
-      "unix",
-      "any",
-      "base"
-    ],
-    "ubuntu.16.10-arm": [
-      "ubuntu.16.10",
-      "ubuntu-arm",
-      "ubuntu",
-      "debian-arm",
-      "debian",
-      "linux-arm",
-      "linux",
-      "unix-arm",
-      "unix",
-      "any",
-      "base"
-    ],
-    "ubuntu.16.10-arm64": [
-      "ubuntu.16.10",
-      "ubuntu-arm64",
-      "ubuntu",
-      "debian-arm64",
-      "debian",
-      "linux-arm64",
-      "linux",
-      "unix-arm64",
-      "unix",
-      "any",
-      "base"
-    ],
-    "linuxmint.17": [
-      "ubuntu.14.04",
-      "ubuntu",
-      "debian",
-      "linux",
-      "unix",
-      "any",
-      "base"
-    ],
-    "linuxmint.17-x64": [
-      "linuxmint.17",
-      "ubuntu.14.04-x64",
-      "ubuntu.14.04",
-      "ubuntu-x64",
-      "ubuntu",
-      "debian-x64",
-      "debian",
-      "linux-x64",
-      "linux",
-      "unix-x64",
-      "unix",
-      "any",
-      "base"
-    ],
-    "linuxmint.17.1": [
-      "linuxmint.17",
-      "ubuntu.14.04",
-      "ubuntu",
-      "debian",
-      "linux",
-      "unix",
-      "any",
-      "base"
-    ],
-    "linuxmint.17.1-x64": [
-      "linuxmint.17.1",
-      "linuxmint.17-x64",
-      "linuxmint.17",
-      "ubuntu.14.04-x64",
-      "ubuntu.14.04",
-      "ubuntu-x64",
-      "ubuntu",
-      "debian-x64",
-      "debian",
-      "linux-x64",
-      "linux",
-      "unix-x64",
-      "unix",
-      "any",
-      "base"
-    ],
-    "linuxmint.17.2": [
-      "linuxmint.17.1",
-      "linuxmint.17",
-      "ubuntu.14.04",
-      "ubuntu",
-      "debian",
-      "linux",
-      "unix",
-      "any",
-      "base"
-    ],
-    "linuxmint.17.2-x64": [
-      "linuxmint.17.2",
-      "linuxmint.17.1-x64",
-      "linuxmint.17.1",
-      "linuxmint.17-x64",
-      "linuxmint.17",
-      "ubuntu.14.04-x64",
-      "ubuntu.14.04",
-      "ubuntu-x64",
-      "ubuntu",
-      "debian-x64",
-      "debian",
-      "linux-x64",
-      "linux",
-      "unix-x64",
-      "unix",
-      "any",
-      "base"
-    ],
-    "linuxmint.17.3": [
-      "linuxmint.17.2",
-      "linuxmint.17.1",
-      "linuxmint.17",
-      "ubuntu.14.04",
-      "ubuntu",
-      "debian",
-      "linux",
-      "unix",
-      "any",
-      "base"
-    ],
-    "linuxmint.17.3-x64": [
-      "linuxmint.17.3",
-      "linuxmint.17.2-x64",
-      "linuxmint.17.2",
-      "linuxmint.17.1-x64",
-      "linuxmint.17.1",
-      "linuxmint.17-x64",
-      "linuxmint.17",
-      "ubuntu.14.04-x64",
-      "ubuntu.14.04",
-      "ubuntu-x64",
-      "ubuntu",
-      "debian-x64",
-      "debian",
-      "linux-x64",
-      "linux",
-      "unix-x64",
-      "unix",
-      "any",
-      "base"
-    ],
-    "linuxmint.18": [
-      "ubuntu.16.04",
-      "ubuntu",
-      "debian",
-      "linux",
-      "unix",
-      "any",
-      "base"
-    ],
-    "linuxmint.18-x64": [
-      "linuxmint.18",
-      "ubuntu.16.04-x64",
-      "ubuntu.16.04",
-      "ubuntu-x64",
-      "ubuntu",
-      "debian-x64",
-      "debian",
-      "linux-x64",
-      "linux",
-      "unix-x64",
-      "unix",
-      "any",
-      "base"
-    ],
-    "linuxmint.18.1": [
-      "linuxmint.18",
-      "ubuntu.16.04",
-      "ubuntu",
-      "debian",
-      "linux",
-      "unix",
-      "any",
-      "base"
-    ],
-    "linuxmint.18.1-x64": [
-      "linuxmint.18.1",
-      "linuxmint.18-x64",
-      "linuxmint.18",
-      "ubuntu.16.04-x64",
-      "ubuntu.16.04",
-      "ubuntu-x64",
-      "ubuntu",
-      "debian-x64",
-      "debian",
-      "linux-x64",
-      "linux",
-      "unix-x64",
-      "unix",
-      "any",
-      "base"
-    ],
-    "fedora": [
-      "linux",
-      "unix",
-      "any",
-      "base"
-    ],
-    "fedora-x64": [
-      "fedora",
-      "linux-x64",
-      "linux",
-      "unix-x64",
-      "unix",
-      "any",
-      "base"
-    ],
-    "fedora.23": [
-      "fedora",
-      "linux",
-      "unix",
-      "any",
-      "base"
-    ],
-    "fedora.23-x64": [
-      "fedora.23",
-      "fedora-x64",
-      "fedora",
-      "linux-x64",
-      "linux",
-      "unix-x64",
-      "unix",
-      "any",
-      "base"
-    ],
-    "fedora.24": [
-      "fedora",
-      "linux",
-      "unix",
-      "any",
-      "base"
-    ],
-    "fedora.24-x64": [
-      "fedora.24",
-      "fedora-x64",
-      "fedora",
-      "linux-x64",
-      "linux",
-      "unix-x64",
-      "unix",
-      "any",
-      "base"
-    ],
-    "fedora.25": [
-      "fedora",
-      "linux",
-      "unix",
-      "any",
-      "base"
-    ],
-    "fedora.25-x64": [
-      "fedora.25",
-      "fedora-x64",
-      "fedora",
-      "linux-x64",
-      "linux",
-      "unix-x64",
-      "unix",
-      "any",
-      "base"
-    ],
-    "fedora.26": [
-      "fedora",
-      "linux",
-      "unix",
-      "any",
-      "base"
-    ],
-    "fedora.26-x64": [
-      "fedora.26",
-      "fedora-x64",
-      "fedora",
-      "linux-x64",
-      "linux",
-      "unix-x64",
-      "unix",
-      "any",
-      "base"
-    ],
-    "opensuse": [
-      "linux",
-      "unix",
-      "any",
-      "base"
-    ],
-    "opensuse-x64": [
-      "opensuse",
-      "linux-x64",
-      "linux",
-      "unix-x64",
-      "unix",
-      "any",
-      "base"
-    ],
-    "opensuse.13.2": [
-      "opensuse",
-      "linux",
-      "unix",
-      "any",
-      "base"
-    ],
-    "opensuse.13.2-x64": [
-      "opensuse.13.2",
-      "opensuse-x64",
-      "opensuse",
-      "linux-x64",
-      "linux",
-      "unix-x64",
-      "unix",
-      "any",
-      "base"
-    ],
-    "opensuse.42.1": [
-      "opensuse",
-      "linux",
-      "unix",
-      "any",
-      "base"
-    ],
-    "opensuse.42.1-x64": [
-      "opensuse.42.1",
-      "opensuse-x64",
-      "opensuse",
-      "linux-x64",
-      "linux",
-      "unix-x64",
-      "unix",
-      "any",
-      "base"
-    ],
-    "linux-corert": [
-      "corert",
-      "linux",
-      "unix-corert",
-      "any",
-      "unix",
-      "base"
-    ],
-    "linux-x64-corert": [
-      "linux-corert",
-      "linux-x64",
-      "corert",
-      "linux",
-      "unix-corert",
-      "unix-x64",
-      "any",
-      "unix",
-      "base"
-    ],
-    "linux-arm-corert": [
-      "linux-corert",
-      "linux-arm",
-      "corert",
-      "linux",
-      "unix-corert",
-      "unix-arm",
-      "any",
-      "unix",
-      "base"
-    ],
-    "linux-arm64-corert": [
-      "linux-corert",
-      "linux-arm64",
-      "corert",
-      "linux",
-      "unix-corert",
-      "unix-arm64",
-      "any",
-      "unix",
-      "base"
-    ],
-    "rhel-corert": [
-      "corert",
-      "rhel",
-      "any",
-      "linux",
-      "base",
-      "unix"
-    ],
-    "rhel-x64-corert": [
-      "rhel-corert",
-      "linux-x64-corert",
-      "rhel-x64",
-      "corert",
-      "rhel",
-      "linux-corert",
-      "linux-x64",
-      "any",
-      "linux",
-      "unix-corert",
-      "unix-x64",
-      "base",
-      "unix"
-    ],
-    "rhel.7-corert": [
-      "rhel-corert",
-      "rhel.7",
-      "corert",
-      "rhel",
-      "any",
-      "linux",
-      "base",
-      "unix"
-    ],
-    "rhel.7-x64-corert": [
-      "rhel.7-corert",
-      "rhel-x64-corert",
-      "rhel.7-x64",
-      "rhel-corert",
-      "rhel.7",
-      "linux-x64-corert",
-      "rhel-x64",
-      "corert",
-      "rhel",
-      "linux-corert",
-      "linux-x64",
-      "any",
-      "linux",
-      "unix-corert",
-      "unix-x64",
-      "base",
-      "unix"
-    ],
-    "rhel.7.0-corert": [
-      "rhel.7-corert",
-      "rhel.7.0",
-      "rhel-corert",
-      "rhel.7",
-      "corert",
-      "rhel",
-      "any",
-      "linux",
-      "base",
-      "unix"
-    ],
-    "rhel.7.0-x64-corert": [
-      "rhel.7.0-corert",
-      "rhel.7-x64-corert",
-      "rhel.7.0-x64",
-      "rhel.7-corert",
-      "rhel.7.0",
-      "rhel-x64-corert",
-      "rhel.7-x64",
-      "rhel-corert",
-      "rhel.7",
-      "linux-x64-corert",
-      "rhel-x64",
-      "corert",
-      "rhel",
-      "linux-corert",
-      "linux-x64",
-      "any",
-      "linux",
-      "unix-corert",
-      "unix-x64",
-      "base",
-      "unix"
-    ],
-    "rhel.7.1-corert": [
-      "rhel.7.0-corert",
-      "rhel.7.1",
-      "rhel.7-corert",
-      "rhel.7.0",
-      "rhel-corert",
-      "rhel.7",
-      "corert",
-      "rhel",
-      "any",
-      "linux",
-      "base",
-      "unix"
-    ],
-    "rhel.7.1-x64-corert": [
-      "rhel.7.1-corert",
-      "rhel.7.0-x64-corert",
-      "rhel.7.1-x64",
-      "rhel.7.0-corert",
-      "rhel.7.1",
-      "rhel.7-x64-corert",
-      "rhel.7.0-x64",
-      "rhel.7-corert",
-      "rhel.7.0",
-      "rhel-x64-corert",
-      "rhel.7-x64",
-      "rhel-corert",
-      "rhel.7",
-      "linux-x64-corert",
-      "rhel-x64",
-      "corert",
-      "rhel",
-      "linux-corert",
-      "linux-x64",
-      "any",
-      "linux",
-      "unix-corert",
-      "unix-x64",
-      "base",
-      "unix"
-    ],
-    "rhel.7.2-corert": [
-      "rhel.7.1-corert",
-      "rhel.7.2",
-      "rhel.7.0-corert",
-      "rhel.7.1",
-      "rhel.7-corert",
-      "rhel.7.0",
-      "rhel-corert",
-      "rhel.7",
-      "corert",
-      "rhel",
-      "any",
-      "linux",
-      "base",
-      "unix"
-    ],
-    "rhel.7.2-x64-corert": [
-      "rhel.7.2-corert",
-      "rhel.7.1-x64-corert",
-      "rhel.7.2-x64",
-      "rhel.7.1-corert",
-      "rhel.7.2",
-      "rhel.7.0-x64-corert",
-      "rhel.7.1-x64",
-      "rhel.7.0-corert",
-      "rhel.7.1",
-      "rhel.7-x64-corert",
-      "rhel.7.0-x64",
-      "rhel.7-corert",
-      "rhel.7.0",
-      "rhel-x64-corert",
-      "rhel.7-x64",
-      "rhel-corert",
-      "rhel.7",
-      "linux-x64-corert",
-      "rhel-x64",
-      "corert",
-      "rhel",
-      "linux-corert",
-      "linux-x64",
-      "any",
-      "linux",
-      "unix-corert",
-      "unix-x64",
-      "base",
-      "unix"
-    ],
-    "ol-corert": [
-      "rhel-corert",
-      "ol",
-      "corert",
-      "rhel",
-      "any",
-      "linux",
-      "base",
-      "unix"
-    ],
-    "ol-x64-corert": [
-      "ol-corert",
-      "rhel-x64-corert",
-      "ol-x64",
-      "rhel-corert",
-      "ol",
-      "linux-x64-corert",
-      "rhel-x64",
-      "corert",
-      "rhel",
-      "linux-corert",
-      "linux-x64",
-      "any",
-      "linux",
-      "unix-corert",
-      "unix-x64",
-      "base",
-      "unix"
-    ],
-    "ol.7-corert": [
-      "ol-corert",
-      "ol.7",
-      "rhel-corert",
-      "ol",
-      "rhel.7",
-      "corert",
-      "rhel",
-      "any",
-      "linux",
-      "base",
-      "unix"
-    ],
-    "ol.7-x64-corert": [
-      "ol.7-corert",
-      "rhel.7-x64-corert",
-      "ol.7-x64",
-      "ol-corert",
-      "ol.7",
-      "rhel.7-corert",
-      "rhel-x64-corert",
-      "rhel.7-x64",
-      "ol-x64",
-      "rhel-corert",
-      "ol",
-      "rhel.7",
-      "linux-x64-corert",
-      "rhel-x64",
-      "corert",
-      "rhel",
-      "linux-corert",
-      "linux-x64",
-      "any",
-      "linux",
-      "unix-corert",
-      "unix-x64",
-      "base",
-      "unix"
-    ],
-    "ol.7.0-corert": [
-      "ol.7-corert",
-      "ol.7.0",
-      "ol-corert",
-      "ol.7",
-      "rhel.7.0",
-      "rhel-corert",
-      "ol",
-      "rhel.7",
-      "corert",
-      "rhel",
-      "any",
-      "linux",
-      "base",
-      "unix"
-    ],
-    "ol.7.0-x64-corert": [
-      "ol.7.0-corert",
-      "rhel.7.0-corert",
-      "ol.7.0-x64",
-      "ol.7-corert",
-      "ol.7.0",
-      "rhel.7-corert",
-      "rhel.7.0",
-      "ol.7-x64",
-      "rhel.7.0-x64",
-      "ol-corert",
-      "ol.7",
-      "rhel-corert",
-      "rhel.7",
-      "ol-x64",
-      "rhel.7-x64",
-      "ol",
-      "corert",
-      "rhel",
-      "rhel-x64",
-      "any",
-      "linux",
-      "linux-x64",
-      "base",
-      "unix",
-      "unix-x64"
-    ],
-    "ol.7.1-corert": [
-      "ol.7.0-corert",
-      "ol.7.1",
-      "ol.7-corert",
-      "ol.7.0",
-      "rhel.7.1",
-      "ol-corert",
-      "ol.7",
-      "rhel.7.0",
-      "rhel-corert",
-      "ol",
-      "rhel.7",
-      "corert",
-      "rhel",
-      "any",
-      "linux",
-      "base",
-      "unix"
-    ],
-    "ol.7.1-x64-corert": [
-      "ol.7.1-corert",
-      "rhel.7.1-x64-corert",
-      "ol.7.1-x64",
-      "ol.7.0-corert",
-      "ol.7.1",
-      "rhel.7.1-corert",
-      "rhel.7.0-x64-corert",
-      "rhel.7.1-x64",
-      "ol.7.0-x64",
-      "ol.7-corert",
-      "ol.7.0",
-      "rhel.7.1",
-      "rhel.7.0-corert",
-      "rhel.7-x64-corert",
-      "rhel.7.0-x64",
-      "ol.7-x64",
-      "ol-corert",
-      "ol.7",
-      "rhel.7.0",
-      "rhel.7-corert",
-      "rhel-x64-corert",
-      "rhel.7-x64",
-      "ol-x64",
-      "rhel-corert",
-      "ol",
-      "rhel.7",
-      "linux-x64-corert",
-      "rhel-x64",
-      "corert",
-      "rhel",
-      "linux-corert",
-      "linux-x64",
-      "any",
-      "linux",
-      "unix-corert",
-      "unix-x64",
-      "base",
-      "unix"
-    ],
-    "centos-corert": [
-      "rel-corert",
-      "centos",
-      "rhel",
-      "linux",
-      "unix",
-      "any",
-      "base"
-    ],
-    "centos-x64-corert": [
-      "centos-corert",
-      "rhel-x64-corert",
-      "centos-x64",
-      "rel-corert",
-      "centos",
-      "rhel-corert",
-      "linux-x64-corert",
-      "rhel-x64",
-      "rhel",
-      "corert",
-      "linux-corert",
-      "linux-x64",
-      "linux",
-      "any",
-      "unix-corert",
-      "unix-x64",
-      "unix",
-      "base"
-    ],
-    "centos.7-corert": [
-      "centos-corert",
-      "centos.7",
-      "rel-corert",
-      "centos",
-      "rhel.7",
-      "rhel",
-      "linux",
-      "unix",
-      "any",
-      "base"
-    ],
-    "centos.7-x64-corert": [
-      "centos.7-corert",
-      "centos-x64-corert",
-      "centos.7-x64",
-      "centos-corert",
-      "centos.7",
-      "rhel-x64-corert",
-      "centos-x64",
-      "rhel.7-x64",
-      "rel-corert",
-      "centos",
-      "rhel.7",
-      "rhel-corert",
-      "linux-x64-corert",
-      "rhel-x64",
-      "rhel",
-      "corert",
-      "linux-corert",
-      "linux-x64",
-      "linux",
-      "any",
-      "unix-corert",
-      "unix-x64",
-      "unix",
-      "base"
-    ],
-    "debian-corert": [
-      "linux-corert",
-      "debian",
-      "corert",
-      "linux",
-      "unix-corert",
-      "any",
-      "unix",
-      "base"
-    ],
-    "debian-x64-corert": [
-      "debian-corert",
-      "linux-x64-corert",
-      "debian-x64",
-      "linux-corert",
-      "debian",
-      "linux-x64",
-      "corert",
-      "linux",
-      "unix-corert",
-      "unix-x64",
-      "any",
-      "unix",
-      "base"
-    ],
-    "debian-arm-corert": [
-      "debian-corert",
-      "debian-arm",
-      "linux-corert",
-      "debian",
-      "linux-arm",
-      "corert",
-      "linux",
-      "unix-corert",
-      "unix-arm",
-      "any",
-      "unix",
-      "base"
-    ],
-    "debian-arm64-corert": [
-      "debian-corert",
-      "debian-arm64",
-      "linux-corert",
-      "debian",
-      "linux-arm64",
-      "corert",
-      "linux",
-      "unix-corert",
-      "unix-arm64",
-      "any",
-      "unix",
-      "base"
-    ],
-    "debian.8-corert": [
-      "debian-corert",
-      "debian.8",
-      "linux-corert",
-      "debian",
-      "corert",
-      "linux",
-      "unix-corert",
-      "any",
-      "unix",
-      "base"
-    ],
-    "debian.8-x64-corert": [
-      "debian.8-corert",
-      "debian-x64-corert",
-      "debian.8-x64",
-      "debian-corert",
-      "debian.8",
-      "linux-x64-corert",
-      "debian-x64",
-      "linux-corert",
-      "debian",
-      "linux-x64",
-      "corert",
-      "linux",
-      "unix-corert",
-      "unix-x64",
-      "any",
-      "unix",
-      "base"
-    ],
-    "debian.8-arm-corert": [
-      "debian.8-corert",
-      "debian-arm-corert",
-      "debian.8-arm",
-      "debian-corert",
-      "debian.8",
-      "debian-arm",
-      "linux-corert",
-      "debian",
-      "linux-arm",
-      "corert",
-      "linux",
-      "unix-corert",
-      "unix-arm",
-      "any",
-      "unix",
-      "base"
-    ],
-    "debian.8-arm64-corert": [
-      "debian.8-corert",
-      "debian-arm64-corert",
-      "debian.8-arm64",
-      "debian-corert",
-      "debian.8",
-      "debian-arm64",
-      "linux-corert",
-      "debian",
-      "linux-arm64",
-      "corert",
-      "linux",
-      "unix-corert",
-      "unix-arm64",
-      "any",
-      "unix",
-      "base"
-    ],
-    "ubuntu-corert": [
-      "debian-corert",
-      "ubuntu",
-      "linux-corert",
-      "debian",
-      "corert",
-      "linux",
-      "unix-corert",
-      "any",
-      "unix",
-      "base"
-    ],
-    "ubuntu-x64-corert": [
-      "ubuntu-corert",
-      "debian-x64-corert",
-      "ubuntu-x64",
-      "debian-corert",
-      "ubuntu",
-      "linux-x64-corert",
-      "debian-x64",
-      "linux-corert",
-      "debian",
-      "linux-x64",
-      "corert",
-      "linux",
-      "unix-corert",
-      "unix-x64",
-      "any",
-      "unix",
-      "base"
-    ],
-    "ubuntu.14.04-corert": [
-      "ubuntu-corert",
-      "ubuntu.14.06",
-      "debian-corert",
-      "ubuntu",
-      "linux-corert",
-      "debian",
-      "corert",
-      "linux",
-      "unix-corert",
-      "any",
-      "unix",
-      "base"
-    ],
-    "ubuntu.14.04-x64-corert": [
-      "ubuntu.14.04-corert",
-      "ubuntu-x64-corert",
-      "ubuntu-14.04-x64",
-      "ubuntu-corert",
-      "ubuntu.14.06",
-      "debian-x64-corert",
-      "ubuntu-x64",
-      "debian-corert",
-      "ubuntu",
-      "linux-x64-corert",
-      "debian-x64",
-      "linux-corert",
-      "debian",
-      "linux-x64",
-      "corert",
-      "linux",
-      "unix-corert",
-      "unix-x64",
-      "any",
-      "unix",
-      "base"
-    ],
-    "ubuntu.14.10-corert": [
-      "ubuntu.14.04-corert",
-      "ubuntu-14.10",
-      "ubuntu-corert",
-      "ubuntu.14.06",
-      "debian-corert",
-      "ubuntu",
-      "linux-corert",
-      "debian",
-      "corert",
-      "linux",
-      "unix-corert",
-      "any",
-      "unix",
-      "base"
-    ],
-    "ubuntu.14.10-x64-corert": [
-      "ubuntu.14.10-corert",
-      "ubuntu.14.04-x64-corert",
-      "ubuntu.14.10-x64",
-      "ubuntu.14.04-corert",
-      "ubuntu-14.10",
-      "ubuntu-x64-corert",
-      "ubuntu-14.04-x64",
-      "ubuntu.14.10",
-      "ubuntu-x64",
-      "ubuntu-corert",
-      "ubuntu.14.06",
-      "debian-x64-corert",
-      "ubuntu",
-      "debian-x64",
-      "debian-corert",
-      "linux-x64-corert",
-      "debian",
-      "linux-x64",
-      "linux-corert",
-      "linux",
-      "unix-x64",
-      "corert",
-      "unix-corert",
-      "unix",
-      "any",
-      "base"
-    ],
-    "ubuntu.15.04-corert": [
-      "ubuntu.14.10-corert",
-      "ubuntu-15.04",
-      "ubuntu.14.04-corert",
-      "ubuntu-14.10",
-      "ubuntu-corert",
-      "ubuntu.14.06",
-      "debian-corert",
-      "ubuntu",
-      "linux-corert",
-      "debian",
-      "corert",
-      "linux",
-      "unix-corert",
-      "any",
-      "unix",
-      "base"
-    ],
-    "ubuntu.15.04-x64-corert": [
-      "ubuntu.15.04-corert",
-      "ubuntu.14.10-x64-corert",
-      "ubuntu.15.04-x64",
-      "ubuntu.14.10-corert",
-      "ubuntu-15.04",
-      "ubuntu.14.04-x64-corert",
-      "ubuntu.14.10-x64",
-      "ubuntu.15.04",
-      "ubuntu-x64",
-      "ubuntu.14.04-corert",
-      "ubuntu-14.10",
-      "ubuntu-x64-corert",
-      "ubuntu-14.04-x64",
-      "ubuntu.14.10",
-      "ubuntu",
-      "debian-x64",
-      "ubuntu-corert",
-      "ubuntu.14.06",
-      "debian-x64-corert",
-      "debian",
-      "linux-x64",
-      "debian-corert",
-      "linux-x64-corert",
-      "linux",
-      "unix-x64",
-      "linux-corert",
-      "unix",
-      "corert",
-      "unix-corert",
-      "any",
-      "base"
-    ],
-    "ubuntu.15.10-corert": [
-      "ubuntu.15.04-corert",
-      "ubuntu-15.10",
-      "ubuntu.14.10-corert",
-      "ubuntu-15.04",
-      "ubuntu.14.04-corert",
-      "ubuntu-14.10",
-      "ubuntu-corert",
-      "ubuntu.14.06",
-      "debian-corert",
-      "ubuntu",
-      "linux-corert",
-      "debian",
-      "corert",
-      "linux",
-      "unix-corert",
-      "any",
-      "unix",
-      "base"
-    ],
-    "ubuntu.15.10-x64-corert": [
-      "ubuntu.15.10-corert",
-      "ubuntu.15.04-x64-corert",
-      "ubuntu.15.10-x64",
-      "ubuntu.15.04-corert",
-      "ubuntu-15.10",
-      "ubuntu.14.10-x64-corert",
-      "ubuntu.15.04-x64",
-      "ubuntu.15.10",
-      "ubuntu-x64",
-      "ubuntu.14.10-corert",
-      "ubuntu-15.04",
-      "ubuntu.14.04-x64-corert",
-      "ubuntu.14.10-x64",
-      "ubuntu.15.04",
-      "ubuntu",
-      "debian-x64",
-      "ubuntu.14.04-corert",
-      "ubuntu-14.10",
-      "ubuntu-x64-corert",
-      "ubuntu-14.04-x64",
-      "ubuntu.14.10",
-      "debian",
-      "linux-x64",
-      "ubuntu-corert",
-      "ubuntu.14.06",
-      "debian-x64-corert",
-      "linux",
-      "unix-x64",
-      "debian-corert",
-      "linux-x64-corert",
-      "unix",
-      "linux-corert",
-      "any",
-      "corert",
-      "unix-corert",
-      "base"
-    ],
-    "ubuntu.16.04-corert": [
-      "ubuntu.15.10-corert",
-      "ubuntu-16.04",
-      "ubuntu.15.04-corert",
-      "ubuntu-15.10",
-      "ubuntu.14.10-corert",
-      "ubuntu-15.04",
-      "ubuntu.14.04-corert",
-      "ubuntu-14.10",
-      "ubuntu-corert",
-      "ubuntu.14.06",
-      "debian-corert",
-      "ubuntu",
-      "linux-corert",
-      "debian",
-      "corert",
-      "linux",
-      "unix-corert",
-      "any",
-      "unix",
-      "base"
-    ],
-    "ubuntu.16.04-x64-corert": [
-      "ubuntu.16.04-corert",
-      "ubuntu.15.10-x64-corert",
-      "ubuntu.16.04-x64",
-      "ubuntu.15.10-corert",
-      "ubuntu-16.04",
-      "ubuntu.15.04-x64-corert",
-      "ubuntu.15.10-x64",
-      "ubuntu.16.04",
-      "ubuntu-x64",
-      "ubuntu.15.04-corert",
-      "ubuntu-15.10",
-      "ubuntu.14.10-x64-corert",
-      "ubuntu.15.04-x64",
-      "ubuntu.15.10",
-      "ubuntu",
-      "debian-x64",
-      "ubuntu.14.10-corert",
-      "ubuntu-15.04",
-      "ubuntu.14.04-x64-corert",
-      "ubuntu.14.10-x64",
-      "ubuntu.15.04",
-      "debian",
-      "linux-x64",
-      "ubuntu.14.04-corert",
-      "ubuntu-14.10",
-      "ubuntu-x64-corert",
-      "ubuntu-14.04-x64",
-      "ubuntu.14.10",
-      "linux",
-      "unix-x64",
-      "ubuntu-corert",
-      "ubuntu.14.06",
-      "debian-x64-corert",
-      "unix",
-      "debian-corert",
-      "linux-x64-corert",
-      "any",
-      "linux-corert",
-      "base",
-      "corert",
-      "unix-corert"
-    ],
-    "ubuntu.16.10-corert": [
-      "ubuntu.16.04-corert",
-      "ubuntu.16.10",
-      "ubuntu.15.10-corert",
-      "ubuntu-16.04",
-      "ubuntu",
-      "ubuntu.15.04-corert",
-      "ubuntu-15.10",
-      "debian",
-      "ubuntu.14.10-corert",
-      "ubuntu-15.04",
-      "linux",
-      "ubuntu.14.04-corert",
-      "ubuntu-14.10",
-      "unix",
-      "ubuntu-corert",
-      "ubuntu.14.06",
-      "any",
-      "debian-corert",
-      "base",
-      "linux-corert",
-      "corert",
-      "unix-corert"
-    ],
-    "ubuntu.16.10-x64-corert": [
-      "ubuntu.16.10-corert",
-      "ubuntu.16.04-x64-corert",
-      "ubuntu.16.10-x64",
-      "ubuntu.16.04-corert",
-      "ubuntu.16.10",
-      "ubuntu.15.10-x64-corert",
-      "ubuntu.16.04-x64",
-      "ubuntu-x64",
-      "ubuntu.15.10-corert",
-      "ubuntu-16.04",
-      "ubuntu",
-      "ubuntu.15.04-x64-corert",
-      "ubuntu.15.10-x64",
-      "ubuntu.16.04",
-      "debian-x64",
-      "ubuntu.15.04-corert",
-      "ubuntu-15.10",
-      "debian",
-      "ubuntu.14.10-x64-corert",
-      "ubuntu.15.04-x64",
-      "ubuntu.15.10",
-      "linux-x64",
-      "ubuntu.14.10-corert",
-      "ubuntu-15.04",
-      "linux",
-      "ubuntu.14.04-x64-corert",
-      "ubuntu.14.10-x64",
-      "ubuntu.15.04",
-      "unix-x64",
-      "ubuntu.14.04-corert",
-      "ubuntu-14.10",
-      "unix",
-      "ubuntu-x64-corert",
-      "ubuntu-14.04-x64",
-      "ubuntu.14.10",
-      "ubuntu-corert",
-      "ubuntu.14.06",
-      "any",
-      "debian-x64-corert",
-      "debian-corert",
-      "base",
-      "linux-x64-corert",
-      "linux-corert",
-      "corert",
-      "unix-corert"
-    ],
-    "linuxmint.17-corert": [
-      "ubuntu.14.04-corert",
-      "linuxmint.17",
-      "ubuntu-corert",
-      "ubuntu.14.06",
-      "ubuntu.14.04",
-      "debian-corert",
-      "ubuntu",
-      "linux-corert",
-      "debian",
-      "corert",
-      "linux",
-      "unix-corert",
-      "any",
-      "unix",
-      "base"
-    ],
-    "linuxmint.17-x64-corert": [
-      "linuxmint.17-corert",
-      "ubuntu.14.04-x64-corert",
-      "linuxmint.17-x64",
-      "ubuntu.14.04-corert",
-      "linuxmint.17",
-      "ubuntu-x64-corert",
-      "ubuntu-14.04-x64",
-      "ubuntu.14.04-x64",
-      "ubuntu-corert",
-      "ubuntu.14.06",
-      "ubuntu.14.04",
-      "debian-x64-corert",
-      "ubuntu-x64",
-      "debian-corert",
-      "ubuntu",
-      "linux-x64-corert",
-      "debian-x64",
-      "linux-corert",
-      "debian",
-      "linux-x64",
-      "corert",
-      "linux",
-      "unix-corert",
-      "unix-x64",
-      "any",
-      "unix",
-      "base"
-    ],
-    "linuxmint.17.1-corert": [
-      "linuxmint.17-corert",
-      "linuxmint.17.1",
-      "ubuntu.14.04-corert",
-      "linuxmint.17",
-      "ubuntu-corert",
-      "ubuntu.14.06",
-      "ubuntu.14.04",
-      "debian-corert",
-      "ubuntu",
-      "linux-corert",
-      "debian",
-      "corert",
-      "linux",
-      "unix-corert",
-      "any",
-      "unix",
-      "base"
-    ],
-    "linuxmint.17.1-x64-corert": [
-      "linuxmint.17.1-corert",
-      "linuxmint.17-x64-corert",
-      "linuxmint.17.1-x64",
-      "linuxmint.17-corert",
-      "linuxmint.17.1",
-      "ubuntu.14.04-x64-corert",
-      "linuxmint.17-x64",
-      "ubuntu.14.04-corert",
-      "linuxmint.17",
-      "ubuntu-x64-corert",
-      "ubuntu-14.04-x64",
-      "ubuntu.14.04-x64",
-      "ubuntu-corert",
-      "ubuntu.14.06",
-      "ubuntu.14.04",
-      "debian-x64-corert",
-      "ubuntu-x64",
-      "debian-corert",
-      "ubuntu",
-      "linux-x64-corert",
-      "debian-x64",
-      "linux-corert",
-      "debian",
-      "linux-x64",
-      "corert",
-      "linux",
-      "unix-corert",
-      "unix-x64",
-      "any",
-      "unix",
-      "base"
-    ],
-    "linuxmint.17.2-corert": [
-      "linuxmint.17.1-corert",
-      "linuxmint.17.2",
-      "linuxmint.17-corert",
-      "linuxmint.17.1",
-      "ubuntu.14.04-corert",
-      "linuxmint.17",
-      "ubuntu-corert",
-      "ubuntu.14.06",
-      "ubuntu.14.04",
-      "debian-corert",
-      "ubuntu",
-      "linux-corert",
-      "debian",
-      "corert",
-      "linux",
-      "unix-corert",
-      "any",
-      "unix",
-      "base"
-    ],
-    "linuxmint.17.2-x64-corert": [
-      "linuxmint.17.2-corert",
-      "linuxmint.17.1-x64-corert",
-      "linuxmint.17.2-x64",
-      "linuxmint.17.1-corert",
-      "linuxmint.17.2",
-      "linuxmint.17-x64-corert",
-      "linuxmint.17.1-x64",
-      "linuxmint.17-corert",
-      "linuxmint.17.1",
-      "ubuntu.14.04-x64-corert",
-      "linuxmint.17-x64",
-      "ubuntu.14.04-corert",
-      "linuxmint.17",
-      "ubuntu-x64-corert",
-      "ubuntu-14.04-x64",
-      "ubuntu.14.04-x64",
-      "ubuntu-corert",
-      "ubuntu.14.06",
-      "ubuntu.14.04",
-      "debian-x64-corert",
-      "ubuntu-x64",
-      "debian-corert",
-      "ubuntu",
-      "linux-x64-corert",
-      "debian-x64",
-      "linux-corert",
-      "debian",
-      "linux-x64",
-      "corert",
-      "linux",
-      "unix-corert",
-      "unix-x64",
-      "any",
-      "unix",
-      "base"
-    ],
-    "linuxmint.17.3-corert": [
-      "linuxmint.17.2-corert",
-      "linuxmint.17.3",
-      "linuxmint.17.1-corert",
-      "linuxmint.17.2",
-      "linuxmint.17-corert",
-      "linuxmint.17.1",
-      "ubuntu.14.04-corert",
-      "linuxmint.17",
-      "ubuntu-corert",
-      "ubuntu.14.06",
-      "ubuntu.14.04",
-      "debian-corert",
-      "ubuntu",
-      "linux-corert",
-      "debian",
-      "corert",
-      "linux",
-      "unix-corert",
-      "any",
-      "unix",
-      "base"
-    ],
-    "linuxmint.17.3-x64-corert": [
-      "linuxmint.17.3-corert",
-      "linuxmint.17.2-x64-corert",
-      "linuxmint.17.3-x64",
-      "linuxmint.17.2-corert",
-      "linuxmint.17.3",
-      "linuxmint.17.1-x64-corert",
-      "linuxmint.17.2-x64",
-      "linuxmint.17.1-corert",
-      "linuxmint.17.2",
-      "linuxmint.17-x64-corert",
-      "linuxmint.17.1-x64",
-      "linuxmint.17-corert",
-      "linuxmint.17.1",
-      "ubuntu.14.04-x64-corert",
-      "linuxmint.17-x64",
-      "ubuntu.14.04-corert",
-      "linuxmint.17",
-      "ubuntu-x64-corert",
-      "ubuntu-14.04-x64",
-      "ubuntu.14.04-x64",
-      "ubuntu-corert",
-      "ubuntu.14.06",
-      "ubuntu.14.04",
-      "debian-x64-corert",
-      "ubuntu-x64",
-      "debian-corert",
-      "ubuntu",
-      "linux-x64-corert",
-      "debian-x64",
-      "linux-corert",
-      "debian",
-      "linux-x64",
-      "corert",
-      "linux",
-      "unix-corert",
-      "unix-x64",
-      "any",
-      "unix",
-      "base"
-    ],
-    "linuxmint.18-corert": [
-      "ubuntu.16.04-corert",
-      "linuxmint.18",
-      "ubuntu.15.10-corert",
-      "ubuntu-16.04",
-      "ubuntu.16.04",
-      "ubuntu.15.04-corert",
-      "ubuntu-15.10",
-      "ubuntu",
-      "ubuntu.14.10-corert",
-      "ubuntu-15.04",
-      "debian",
-      "ubuntu.14.04-corert",
-      "ubuntu-14.10",
-      "linux",
-      "ubuntu-corert",
-      "ubuntu.14.06",
-      "unix",
-      "debian-corert",
-      "any",
-      "linux-corert",
-      "base",
-      "corert",
-      "unix-corert"
-    ],
-    "linuxmint.18-x64-corert": [
-      "linuxmint.18-corert",
-      "ubuntu.16.04-x64-corert",
-      "linuxmint.18-x64",
-      "ubuntu.16.04-corert",
-      "linuxmint.18",
-      "ubuntu.15.10-x64-corert",
-      "ubuntu.16.04-x64",
-      "ubuntu.15.10-corert",
-      "ubuntu-16.04",
-      "ubuntu.16.04",
-      "ubuntu.15.04-x64-corert",
-      "ubuntu.15.10-x64",
-      "ubuntu-x64",
-      "ubuntu.15.04-corert",
-      "ubuntu-15.10",
-      "ubuntu",
-      "ubuntu.14.10-x64-corert",
-      "ubuntu.15.04-x64",
-      "ubuntu.15.10",
-      "debian-x64",
-      "ubuntu.14.10-corert",
-      "ubuntu-15.04",
-      "debian",
-      "ubuntu.14.04-x64-corert",
-      "ubuntu.14.10-x64",
-      "ubuntu.15.04",
-      "linux-x64",
-      "ubuntu.14.04-corert",
-      "ubuntu-14.10",
-      "linux",
-      "ubuntu-x64-corert",
-      "ubuntu-14.04-x64",
-      "ubuntu.14.10",
-      "unix-x64",
-      "ubuntu-corert",
-      "ubuntu.14.06",
-      "unix",
-      "debian-x64-corert",
-      "debian-corert",
-      "any",
-      "linux-x64-corert",
-      "linux-corert",
-      "base",
-      "corert",
-      "unix-corert"
-    ],
-    "fedora-corert": [
-      "linux-corert",
-      "fedora",
-      "corert",
-      "linux",
-      "unix-corert",
-      "any",
-      "unix",
-      "base"
-    ],
-    "fedora-x64-corert": [
-      "fedora-corert",
-      "linux-x64-corert",
-      "fedora-x64",
-      "linux-corert",
-      "fedora",
-      "linux-x64",
-      "corert",
-      "linux",
-      "unix-corert",
-      "unix-x64",
-      "any",
-      "unix",
-      "base"
-    ],
-    "fedora.23-corert": [
-      "fedora-corert",
-      "fedora.23",
-      "linux-corert",
-      "fedora",
-      "corert",
-      "linux",
-      "unix-corert",
-      "any",
-      "unix",
-      "base"
-    ],
-    "fedora.23-x64-corert": [
-      "fedora.23-corert",
-      "fedora-x64-corert",
-      "fedora.23-x64",
-      "fedora-corert",
-      "fedora.23",
-      "linux-x64-corert",
-      "fedora-x64",
-      "linux-corert",
-      "fedora",
-      "linux-x64",
-      "corert",
-      "linux",
-      "unix-corert",
-      "unix-x64",
-      "any",
-      "unix",
-      "base"
-    ],
-    "fedora.24-corert": [
-      "fedora.23-corert",
-      "fedora.24",
-      "fedora-corert",
-      "fedora.23",
-      "fedora",
-      "linux-corert",
-      "linux",
-      "corert",
-      "unix-corert",
-      "unix",
-      "any",
-      "base"
-    ],
-    "fedora.24-x64-corert": [
-      "fedora.24-corert",
-      "fedora.23-x64-corert",
-      "fedora.24-x64",
-      "fedora.23-corert",
-      "fedora.24",
-      "fedora-x64-corert",
-      "fedora.23-x64",
-      "fedora-x64",
-      "fedora-corert",
-      "fedora.23",
-      "fedora",
-      "linux-x64-corert",
-      "linux-x64",
-      "linux-corert",
-      "linux",
-      "unix-x64",
-      "corert",
-      "unix-corert",
-      "unix",
-      "any",
-      "base"
-    ],
-    "opensuse-corert": [
-      "linux-corert",
-      "opensuse",
-      "corert",
-      "linux",
-      "unix-corert",
-      "any",
-      "unix",
-      "base"
-    ],
-    "opensuse-x64-corert": [
-      "opensuse-corert",
-      "linux-x64-corert",
-      "opensuste-x64",
-      "linux-corert",
-      "opensuse",
-      "linux-x64",
-      "corert",
-      "linux",
-      "unix-corert",
-      "unix-x64",
-      "any",
-      "unix",
-      "base"
-    ],
-    "opensuse.13.2-corert": [
-      "opensuse-corert",
-      "opensuse.13.2",
-      "linux-corert",
-      "opensuse",
-      "corert",
-      "linux",
-      "unix-corert",
-      "any",
-      "unix",
-      "base"
-    ],
-    "opensuse.13.2-x64-corert": [
-      "opensuse.13.2-corert",
-      "opensuse-x64-corert",
-      "opensuse.13.2-x64",
-      "opensuse-corert",
-      "opensuse.13.2",
-      "linux-x64-corert",
-      "opensuste-x64",
-      "opensuse-x64",
-      "linux-corert",
-      "opensuse",
-      "linux-x64",
-      "corert",
-      "linux",
-      "unix-corert",
-      "unix-x64",
-      "any",
-      "unix",
-      "base"
-    ],
-    "opensuse.42.1-corert": [
-      "opensuse.13.2-corert",
-      "opensuse.42.1",
-      "opensuse-corert",
-      "opensuse.13.2",
-      "opensuse",
-      "linux-corert",
-      "linux",
-      "corert",
-      "unix-corert",
-      "unix",
-      "any",
-      "base"
-    ],
-    "opensuse.42.1-x64-corert": [
-      "opensuse.42.1-corert",
-      "opensuse.13.2-x64-corert",
-      "opensuse.42.1-x64",
-      "opensuse.13.2-corert",
-      "opensuse.42.1",
-      "opensuse-x64-corert",
-      "opensuse.13.2-x64",
-      "opensuse-x64",
-      "opensuse-corert",
-      "opensuse.13.2",
-      "opensuse",
-      "linux-x64-corert",
-      "opensuste-x64",
-      "linux-x64",
-      "linux-corert",
-      "linux",
-      "unix-x64",
-      "corert",
-      "unix-corert",
-      "unix",
-      "any",
-      "base"
-    ],
-    "freebsd.11-x64": [
-      "unix",
-      "unix-x64",
-      "any",
-      "base"
-    ]
   }
 }
